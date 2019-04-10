@@ -1,0 +1,654 @@
+/*Big tablet to 1200px: (widths smaller that the 1140px row)*/
+@media only screen and (max-width: 1200px) {
+    .logo {
+        height: 495px;
+        top: 49.5%;
+    }
+
+    .row {
+        padding: 0 2%;
+    }
+
+    .egyedi-cim {
+        font-size: 38px;
+    }
+
+    /*-------------------------EKSZER BETŰINEK FORMÁZÁSA-------------------*/
+
+}
+
+/*-------------------------------------------- Small tablet to big tablet: from 768 to 1023 ---------------------------------*/
+@media only screen and (max-width: 1023px) {
+
+    .row {
+        padding: 0 2%;
+    }
+
+    body {
+        font-size: 18px;
+    }
+
+    section {
+        padding: 60px 0;
+    }
+
+    .logo {
+        height: 72%;
+        top: 51%;
+    }
+
+    /*-------------------------EKSZER BETŰINEK FORMÁZÁSA-------------------*/
+
+    /*angyal.html*/
+    .ekszer--nev--ar {
+        font-size: 120%;
+    }
+
+    /*angyal.html*/
+    .ekszer-nev {
+        margin: 20px 0;
+        font-size: 180%;
+    }
+
+    .main-nav li {
+        margin-left: 22px;
+    }
+
+    .section-ujdonsag,
+    .ekszerek,
+    .ferfi-ekszerek {
+        padding-top: 0px;
+    }
+
+    /*--------------------- ÖSSZES ÉKSZER MEGJELENÍTÉSE OLDAL -----------------------------*/
+
+    .egyedi-cim {
+        font-size: 38px;
+    }
+
+    .ekszerek-gyurmak {
+        padding: 0;
+        margin: 0;
+    }
+
+    .ekszerek-elsosor {
+        margin: 5px 0;
+    }
+
+    .ekszerek-elsosor::after {
+        margin-top: 350px;
+    }
+
+    .ekszerek-masodik-sor {
+        margin-bottom: 10px 0;
+    }
+
+    .ekszer-box img {
+        width: 80%;
+        margin-bottom: 0px;
+    }
+
+    .nav {
+        padding: 19px;
+    }
+
+    .ekszerek-nav {
+        border-bottom: 0.1px solid #fbf7f7;
+        padding-bottom: 15px;
+    }
+
+    /*LOGÓ FORMÁZÁSA*/
+    .ekszerek-logo-black {
+        height: 70px;
+        width: auto;
+        float: left;
+        margin-bottom: 5px;
+    }
+
+    /*----------------------------- KIVÁLASZTOTT ÉKSZEREK FORMÁZÁSA -----------------------------*/
+
+    .egymas-alatt img {
+        width: 25%;
+        height: auto;
+        float: left;
+        margin-bottom: 5px;
+    }
+
+    #nagykep {
+        width: 58%;
+    }
+
+    /*Az angyal.html p osztályának a formázása. Berűméret beállítása*/
+    .ekszer-reszletek {
+        font-size: 75%;
+    }
+
+    .onallo-ekszer {
+        padding: 0;
+        margin: 0;
+    }
+
+    .mySlides img {
+        width: 85%;
+    }
+
+    /*------------------------ ÉKSZER KÉPE AMI MEGJELENIK angyal.html --------------------*/
+
+    .modal-content {
+        position: relative;
+        background-color: #fefefe;
+        margin-left: 150px;
+        padding: 0;
+        width: 300%;
+        max-width: 490px;
+    }
+
+
+    /* Next & previous buttons */
+    .prev,
+    .next {
+        top: 250px;
+        width: auto;
+        padding: 25px;
+    }
+
+    .prev {
+        left: 0;
+    }
+
+    /* Position the "next button" to the right */
+    .next {
+        right: 122.5px;
+        border-radius: 3px 0px 0px 3px;
+    }
+
+    /*FOOTER FORMÁZÁSA*/
+
+    .footer {
+        padding: 10px 0;
+    }
+}
+
+/* ----------------------------------------- KINDLE FIRE HDX: from 790 to 810px ---------------------------------*/
+/* ----------------------------------------- 414 PIXEL-NÉL A KÉPNÉZEGETŐT ÁLLÍTJA BE ---------------------------------*/
+
+@media only screen and (max-width: 810px) {
+
+    /* Next & previous buttons */
+    .prev,
+    .next {
+        top: 280px;
+        width: auto;
+        /*A NYÍLON MEGJELENŐ FEKETE CUCCOT ITT ÁLLÍTOM BE*/
+        padding: 16px;
+    }
+
+    /* Position the "next button" to the right */
+    .next {
+        /*ITT ÁLLÍTOM BE A JOBB OLDALI FEKETE BIZBASZ PONTOS HELYZETÉT*/
+        right: 73.5px;
+    }
+}
+
+/*-------------------------------------------Small phones to small tablets: from 481 to 767px---------------------------------------*/
+@media only screen and (max-width: 768px) {
+
+    /*A HEADER MÉRETÉT ÁLLÍTOM BE, TELJES KÉPERNYŐS MEGJELENÉS VAN MINDENHOL*/
+    header {
+        height: 100vh;
+    }
+
+    .col {
+        width: 31.5%;
+    }
+
+    .footer--col {
+        width: 48%;
+    }
+
+    .logo {
+        height: 500px;
+        margin-top: 20px;
+    }
+
+
+    /*-----------------------ÚJDONSÁG KÉPEK FORMÁZÁSA---------------------*/
+
+    .ujdonsag-box img {
+        width: 75%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .ujdonsag-box:last-child {
+        /*display: none;*/
+    }
+
+    /*KÉPEK FORMÁZÁSA -- A FÉRFI ÉS NŐI */
+    /*index.html*/
+    .ekszer-box img {
+        width: 75%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    /*-------------------------ÉKSZER BETŰINEK FORMÁZÁSA-------------------*/
+
+    .ekszerek-h2 {
+        font-size: 210%;
+        padding-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    .ekszer--nev--ar {
+        font-size: 95%;
+        margin: 10px 0;
+    }
+
+    /*FOOTER*/
+
+    footer p {
+        margin-top: 10px;
+        padding-bottom: 0px;
+    }
+
+    /*KIVÁLASZTOTT ÉKSZEREK SORAINAK ÁLTALÁNOS BEÁLLÍTÁSOK-------------- noiekszerek.html-------------*/
+
+    .ekszerek-elsosor {
+        margin-bottom: 20px;
+    }
+
+    .ekszerek-elsosor::after {
+        margin-top: 120px;
+    }
+
+    .ekszerek-masodik-sor {
+        margin-bottom: 20px;
+    }
+
+    /*KIVÁLASZTOTT ÉKSZEREK FORMÁZÁSA -------------- angyal.html -----------------------*/
+
+    .ekszer-reszletek {
+        margin-bottom: 10px;
+        font-size: 10%;
+    }
+
+    .col--kivalasztott-ekszer {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    .egymas-alatt img {
+        width: 23.5%;
+        height: auto;
+        float: left;
+        margin-bottom: 5px;
+    }
+
+    #nagykep {
+        width: 55%;
+        margin-left: 50px;
+    }
+
+    .ekszer-nev {
+        margin: 20px 0;
+        font-size: 150%;
+    }
+
+    .ekszer-reszletek {
+        font-size: 95%;
+    }
+
+    .onallo-ekszer {
+        padding: 0;
+        margin: 0;
+    }
+
+    .mySlides img {
+        width: 70%;
+    }
+
+    /*----------------------------A KÉP TELJES HELYZETÉT LEHET VÁLTOZTATNI  A KÉPNÉZEGETŐBEN---------------------------------*/
+    .modal-content {
+        margin-left: 80px;
+        width: 95%;
+        max-width: 480px;
+    }
+
+
+    /* Next & previous buttons */
+    .prev,
+    .next {
+        top: 220px;
+        width: auto;
+        /*A NYÍLON MEGJELENŐ FEKETE CUCCOT ITT ÁLLÍTOM BE*/
+        padding: 22px;
+    }
+
+    .prev {
+        left: 0;
+    }
+
+    /* Position the "next button" to the right */
+    .next {
+        /*ITT ÁLLÍTOM BE A JOBB OLDALI FEKETE BIZBASZ PONTOS HELYZETÉT*/
+        right: 143px;
+        border-radius: 3px 0px 0px 3px;
+    }
+
+    /*FOOTER FORMÁZÁSA*/
+
+    .footer {
+        padding: 10px 0;
+    }
+}
+
+/* ----------------------------------------- Microsoft Lumnia: from 480 to 660px ----------------------------------------------------*/
+@media only screen and (max-width: 655px) {
+
+    .logo {
+        height: 300px;
+        top: 50%;
+    }
+
+    .main-nav {
+        margin-top: 20px;
+    }
+
+
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        font-size: 77%;
+    }
+}
+
+/* ----------------------------------------- Blackbery PlayBook from 480 to 605px ----------------------------------------------------*/
+@media only screen and (max-width: 605px) {
+
+    .logo {
+        height: 450px;
+        top: 50%;
+    }
+
+    .main-nav {
+        margin-top: 40px;
+    }
+
+
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        font-size: 90%;
+    }
+}
+
+
+
+
+/* ----------------------------------------- Small phones: from 414 to 480px ----------------------------------------------------*/
+@media only screen and (max-width: 480px) {
+
+    /*--------------------- TELEFONON ELTÜNTETEM A MENÜT -------------------------------*/
+
+    .main-nav {
+        display: none;
+    }
+
+    .sticky {
+        display: none;
+    }
+
+    .mobile-nav-icon {
+        display: inline-block;
+        position: absolute;
+        top: 88%;
+        left: 85%;
+        padding: 10px 10px;
+        border: 1px solid #f7f7f7;
+        border-radius: 100px;
+        background-color: rgba(255, 255, 255, 0.12);
+        transition: background-color 0.5s;
+    }
+
+    .mobile-nav-icon:hover {
+        background-color: rgba(238, 238, 238, 0.35);
+        transition: background-color 0.5s;
+    }
+
+    h2 {
+        /* ITT MINDEN H2 ELŐTT ÉS UTÁN 20PX HAGY*/
+        margin: 30px 0;
+    }
+
+    .logo {
+        height: 355px;
+        top: 45%;
+    }
+
+    /*------------------------ A Logo alatti vonalat állítja be ------------------*/
+    .ekszerek-nav {
+        padding-bottom: 0px;
+    }
+
+    .section-ujdonsag {
+        padding-bottom: 10px;
+    }
+
+    /*MOBIL FOOTER*/
+    footer {
+        font-size: 65%;
+    }
+
+    /*EKSZEREK BETŰK*/
+
+    .ekszerek-h2 {
+        font-size: 180%;
+        padding-top: 15px;
+    }
+
+    .ekszer-reszletek {
+        font-size: 80%;
+    }
+
+    /*KIVÁLASZTOTT ÉKSZEREK SORAINAK ÁLTALÁNOS BEÁLLÍTÁSOK-------------- noiekszerek.html-------------*/
+
+    .ekszerek-elsosor {
+        margin: 0px 0;
+    }
+
+    .ekszerek-elsosor {
+        margin-bottom: 10px;
+    }
+
+    .ekszerek-elsosor::after {
+        margin-top: 50px;
+    }
+
+    .ekszer--nev--ar {
+        font-size: 80%;
+    }
+
+    /*KIVÁLASZTOTT ÉKSZEREK FORMÁZÁSA*/
+
+    .egymas-alatt img {
+        width: 21.5%;
+    }
+
+    #nagykep {
+        width: 50.5%;
+    }
+
+    /*A MEGYNYITOTT KÉP TELJES HELYZETÉT LEHET VÁLTOZTATNI*/
+    .modal-content {
+        margin-left: 45px;
+        width: 110%;
+    }
+
+
+    /* Next & previous buttons */
+    .prev,
+    .next {
+        top: 190px;
+        width: auto;
+        /*A NYÍLON MEGJELENŐ FEKETE CUCCOT ITT ÁLLÍTOM BE*/
+        padding: 15px;
+    }
+
+    /* Position the "next button" to the right */
+    .next {
+        /*ITT ÁLLÍTOM BE A JOBB OLDALI FEKETE BIZBASZ PONTOS HELYZETÉT*/
+        right: 103px;
+    }
+
+
+}
+
+/* ----------------------------------------- Small phones: from 360 to 414px ---------------------------------*/
+/* ----------------------------------------- 414 PIXEL-NÉL A KÉPNÉZEGETŐT ÁLLÍTJA BE ---------------------------------*/
+
+@media only screen and (max-width: 420px) {
+
+    /* Next & previous buttons */
+    .prev,
+    .next {
+        top: 222px;
+        width: auto;
+        /*A NYÍLON MEGJELENŐ FEKETE CUCCOT ITT ÁLLÍTOM BE*/
+        padding: 16px;
+    }
+
+    /* Position the "next button" to the right */
+    .next {
+        /*ITT ÁLLÍTOM BE A JOBB OLDALI FEKETE BIZBASZ PONTOS HELYZETÉT*/
+        right: 136.5px;
+    }
+}
+
+/* ----------------------------------------- Small phones: from 360 to 390px ---------------------------------*/
+/* ----------------------------------------- 375 PIXEL-NÉL A KÉPNÉZEGETŐT ÁLLÍTJA BE ---------------------------------*/
+
+@media only screen and (max-width: 390px) {
+
+    /* Next & previous buttons */
+    .prev,
+    .next {
+        top: 205px;
+        width: auto;
+        /*A NYÍLON MEGJELENŐ FEKETE CUCCOT ITT ÁLLÍTOM BE*/
+        padding: 16px;
+    }
+
+    /* Position the "next button" to the right */
+    .next {
+        /*ITT ÁLLÍTOM BE A JOBB OLDALI FEKETE BIZBASZ PONTOS HELYZETÉT*/
+        right: 124px;
+    }
+}
+
+
+/* ----------------------------------------- Small phones: from 0 to 360px ---------------------------------*/
+@media only screen and (max-width: 360px) {
+
+    .col {
+        width: 100%;
+    }
+
+    .footer--col {
+        width: 48%;
+    }
+
+    .logo {
+        height: 300px;
+    }
+
+    /*------------------------ A Logo alatti vonalat állítja be ------------------*/
+    .ekszerek-nav {
+        padding-bottom: 0px;
+    }
+
+    .section-ujdonsag {
+        padding-bottom: 10px;
+    }
+
+    /*-------------------------------------------BETŰMÉRET VÁLTOZTATÁSA----------------------------*/
+
+    h2 {
+        /* ITT MINDEN H2 ELŐTT ÉS UTÁN 20PX HAGY*/
+        margin: 30px 0;
+    }
+
+    /*index.html*/
+    .cim {
+        font-size: 160%;
+    }
+
+    /*index.html*/
+    .egyedi-cim {
+        font-size: 170%;
+    }
+
+    /*angyal.html, noiekszerek.html*/
+    .ekszerek-h2 {
+        font-size: 150%;
+    }
+
+    /*noiekszerek.html*/
+    .ekszer--nev--ar {
+        font-size: 90%;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+
+    /*angyal.html*/
+    .ekszer-nev,
+    .ekszer-erteke {
+        font-size: 100%;
+    }
+
+    .ekszer-reszletek {
+        font-size: 80%;
+    }
+
+    /*-----------------------------------------------MOBIL FOOTER------------------------------------*/
+
+    footer {
+        font-size: 61%;
+    }
+
+    footer p {
+        padding: 10px 0;
+    }
+
+    /*----------------------- KIVÁLASZTOTT ÉKSZEREK FORMÁZÁSA --------------------*/
+
+    .egymas-alatt img {
+        width: 22%;
+    }
+
+    #nagykep {
+        width: 51.5%;
+    }
+
+    /*A MEGYNYITOTT KÉP TELJES HELYZETÉT LEHET VÁLTOZTATNI*/
+    .modal-content {
+        margin-left: 40px;
+        width: 110%;
+    }
+
+
+    /* Next & previous buttons */
+    .prev,
+    .next {
+        top: 190px;
+        width: auto;
+        /*A NYÍLON MEGJELENŐ FEKETE CUCCOT ITT ÁLLÍTOM BE*/
+        padding: 16px;
+    }
+
+    /* Position the "next button" to the right */
+    .next {
+        /*ITT ÁLLÍTOM BE A JOBB OLDALI FEKETE BIZBASZ PONTOS HELYZETÉT*/
+        right: 118.5px;
+    }
+
+}
