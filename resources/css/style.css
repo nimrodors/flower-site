@@ -297,7 +297,7 @@ header {
 /*EGYEDI KÉSZÍTÉSŰ ÉKSZEREK*/
 /*--------------------------------*/
 
-.egyedi-keszitesu-ekszerek {
+.rolam--section {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(img/talisman.jpeg);
     background-size: cover;
     position: relative;
@@ -313,7 +313,7 @@ header {
     transform: translate(-50%, -50%);
 }
 
-.egyedi-cim {
+.rolam-cim {
     margin: 0;
     color: #f7f7f7;
 }

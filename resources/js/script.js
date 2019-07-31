@@ -27,6 +27,13 @@ $('.js--scroll-to-kollekciok-gomb').click(function () {
         scrollTop: $('.js--section-kollekcio').offset().top - 50
     }, 1500);
 });
+
+$('.js--scroll-to-rolam').click(function () {
+    $('html, body').animate({
+        scrollTop: $('.js--section-rolam').offset().top + 50
+    }, 1500);
+});
+
 /* Navigation scroll*/
 
 $('a[href*="#"]').click(function () {
