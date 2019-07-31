@@ -18,20 +18,20 @@ $(document).ready(function () {
 
 $('.js--scroll-to-ujdonsag-gomb').click(function () {
     $('html, body').animate({
-        scrollTop: $('.js--section-ujdonsag').offset().top - 50
+        scrollTop: $('.js--section-ujdonsag').offset().top
     }, 1500);
 });
 
 $('.js--scroll-to-kollekciok-gomb').click(function () {
     $('html, body').animate({
-        scrollTop: $('.js--section-kollekcio').offset().top - 50
+        scrollTop: $('.js--section-kollekcio').offset().top
     }, 1500);
 });
 
-$('.js--scroll-to-rolam').click(function () {
+$('.js--scroll-to-rolam-gomb').click(function () {
     $('html, body').animate({
-        scrollTop: $('.js--section-rolam').offset().top + 50
-    }, 1500);
+        scrollTop: $('.js--section-rolam').offset().top
+    }, 2000);
 });
 
 /* Navigation scroll*/

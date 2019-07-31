@@ -106,7 +106,7 @@ header {
 
 .main-nav li {
     display: inline-block;
-    margin-left: 40px;
+    margin-left: 85px;
 }
 
 .main-nav li a:link,
@@ -302,7 +302,7 @@ header {
     background-size: cover;
     position: relative;
     background-position: center;
-    height: 500px;
+    height: 650px;
     /*background-attachment: fixed;*/
 }
 
@@ -314,8 +314,13 @@ header {
 }
 
 .rolam-cim {
-    margin: 0;
+    margin-bottom: 20px;
     color: #f7f7f7;
+}
+
+.bemutatkozo--szoveg {
+    color: #f7f7f7;
+    text-align: center;
 }
 
 /*--------------------------------*/
