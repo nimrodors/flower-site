@@ -22,20 +22,11 @@ $('.js--scroll-to-ujdonsag-gomb').click(function () {
     }, 1500);
 });
 
-$('.js--scroll-to-noiekszer-gomb').click(function () {
+$('.js--scroll-to-kollekciok-gomb').click(function () {
     $('html, body').animate({
-        scrollTop: $('.js--section-noikszer').offset().top - 50
+        scrollTop: $('.js--section-kollekcio').offset().top - 50
     }, 1500);
 });
-
-$('.js--scroll-to-ffiekszer-gomb').click(function () {
-    $('html, body').animate({
-        scrollTop: $('.js--section-ferfiekszerek').offset().top - 50
-    }, 1500);
-});
-
-
-
 /* Navigation scroll*/
 
 $('a[href*="#"]').click(function () {
