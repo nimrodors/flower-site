@@ -18,19 +18,19 @@ $(document).ready(function () {
 
 $('.js--scroll-to-ujdonsag-gomb').click(function () {
     $('html, body').animate({
-        scrollTop: $('.js--section-ujdonsag').offset().top-50
+        scrollTop: $('.js--section-ujdonsag').offset().top - 50
     }, 1500);
 });
 
 $('.js--scroll-to-noiekszer-gomb').click(function () {
     $('html, body').animate({
-        scrollTop: $('.js--section-noikszer').offset().top-50
+        scrollTop: $('.js--section-noikszer').offset().top - 50
     }, 1500);
 });
 
 $('.js--scroll-to-ffiekszer-gomb').click(function () {
     $('html, body').animate({
-        scrollTop: $('.js--section-ferfiekszerek').offset().top-50
+        scrollTop: $('.js--section-ferfiekszerek').offset().top - 50
     }, 1500);
 });
 
@@ -46,7 +46,7 @@ $('a[href*="#"]').click(function () {
         target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
         if (target.length) {
             $('html,body').animate({
-                scrollTop: target.offset().top
+                scrollTop: target.offset().top - 30
             }, 1000);
             return false;
         }
