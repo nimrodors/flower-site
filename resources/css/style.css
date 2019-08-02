@@ -127,21 +127,22 @@ header {
 /* ----------------------------MOBILE NAVI -------------------------*/
 
 .mobile-nav-icon {
-        display: none;
-        position: absolute;
-        font-size: 75%;
-        top: 90%;
-        left: 90%;
-        padding: 10px 10px;
-        border: 1px solid #f7f7f7;
-        border-radius: 50px;
-        
-    }
+    display: none;
+    position: absolute;
+    font-size: 75%;
+    top: 90%;
+    left: 90%;
+    padding: 10px 10px;
+    border: 1px solid #f7f7f7;
+    border-radius: 50px;
+
+}
 
 .mobile-nav-icon i {
     font-size: 200%;
     color: #f7f7f7;
 }
+
 /* STICKY NAVI */
 
 .sticky {
@@ -231,19 +232,19 @@ header {
 }
 
 .ekszer-box img {
-    width: 75%;
+    width: 60%;
     height: auto;
     margin-bottom: 10px;
     opacity: 1;
-    box-shadow: 0px 2px 2px #000;
+    box-shadow: 0px 2px 8px #000;
     transform: scale(1.01);
-    transition: transform 0.3s, opacity 0.5s;
+    transition: transform 0.3s, opacity 0.5s, box-shadow 0.5s;
 }
 
 .ekszer-box img:hover {
     opacity: 0.95;
     transform: scale(1.03);
-    transition: transform 0.5s, opacity 0.5s;
+    transition: transform 0.5s, opacity 0.5s, box-shadow 0.5s;
 }
 
 /* ÉKSZEREK LINKJEI*/
@@ -442,6 +443,7 @@ footer p {
 
 .ekszerek-masodik-sor {
     margin-bottom: 40px;
+    margin-left: 25%;
 }
 
 .ekszerek-elsosor::after {
@@ -454,23 +456,11 @@ footer p {
     margin-top: 420px;
 }
 
-.arnyek img {
-    width: 60%;
-    height: auto;
-    /*ha elkell az árú akkkor opacityt 0.5re állítjuk
+/*************************************/
+/*ha elkell az árú akkkor opacityt 0.5re állítjuk
     Itt az árnyék magára az egész divre vonatkozik, 
     mert nem akartam szétbarmolni az egész ekszer-box css kódot!!!!!!!!!!!!!!!!!*/
-}
-
-.arnyek img:hover {
-    opacity: 0.9;
-    transform: scale(1.01);
-    transition: transform 0.5s, opacity 0.5s;
-}
-
-.arnyek img {
-    box-shadow: 0px 2px 2px #000;
-}
+/*************************************/
 
 #eladva img {
     opacity: 0.5;
@@ -584,7 +574,7 @@ footer p {
 /* Modal Content */
 .modal-content {
     position: relative;
-    background-color: #fefefe;  
+    background-color: #fefefe;
     margin: auto;
     padding: 0;
     width: 90%;
