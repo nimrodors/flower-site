@@ -4,7 +4,7 @@ $(document).ready(function () {
 
     /*Sticky navigation --> A navigáció ha lejebb görgetek előjön*/
 
-    $('.js--section-ujdonsag').waypoint(function (direction) {
+    $('.js--section-rolam').waypoint(function (direction) {
         if (direction == "down") {
             $('nav').addClass('sticky');
         } else {
