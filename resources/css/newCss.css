@@ -1,0 +1,163 @@
+/*--------------------------------*/
+/*BASIC SETUP*/
+/*--------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #f7f7f7;
+    color: #000;
+    font-family: 'Courgette', 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/*--------------------------------*/
+/********** HEADER - NAV **********/
+/*--------------------------------*/
+
+.header-nav {
+    float: inherit;
+    list-style: none;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.header-nav li {
+    display: inline-block;
+    margin-top: 25px;
+}
+
+.header-nav li a {
+    text-decoration: none;
+    color: #000;
+}
+
+li:first-child {
+    margin-right: 21%;
+}
+
+li:last-of-type {
+    margin-left: 22%;
+}
+
+.logo-black {
+    height: 100px;
+    width: auto;
+    /*float: left;*/
+}
+
+/*A Line under the Menu*/
+
+.menu::after {
+    display: block;
+    height: 1px;
+    background-color: black;
+    content: " ";
+    width: 250px;
+    margin: 0 auto;
+    margin-top: 22px;
+}
+
+/*--------------------------------------*/
+/********** PICTURES - NOVELTY **********/
+/*--------------------------------------*/
+
+.novelty {
+    text-align: center;
+}
+
+/*--------------------------------------*/
+/********** PICTURES - SECTION **********/
+/*--------------------------------------*/
+
+.pictures {
+    padding: 0;
+    margin-top: 3%;
+}
+
+.pictures__first-column,
+.pictures__second-column,
+.pictures__third-column {
+    text-align: center;
+}
+
+
+.pictures__first-column img,
+.pictures__third-column img {
+    width: 70%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.bottom {
+    vertical-align: bottom;
+    display: table-cell;
+}
+
+
+/*--------------------------------------*/
+/*********** PICTURES - SLIDE ***********/
+/*--------------------------------------*/
+img {
+    vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    margin-top: 5%;
+}
+
+.slideshow-container img {
+    width: 120%;
+    margin-left: -9%;
+}
+
+.active {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}

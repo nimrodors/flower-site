@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/newCss.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Courgette&display=swap&subset=latin-ext" rel="stylesheet" type="text/css">
+    <title>Stone Flower Design</title>
+
+</head>
+
+<body>
+    <div class="header">
+        <nav class="header-nav">
+            <a href="#logo">
+                <img src="resources/images/fekete.png" alt="Stone Flower Logo" class="logo-black">
+            </a>
+            <div class="menu">
+                <ul class="menu-category">
+                    <li><a href="#">Újdonság</a></li>
+                    <li><a href="#">Kollekciók</a></li>
+                    <li><a href="#">Rólam</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <section class="pictures">
+        <div class="col span-1-of-3 pictures__first-column bottom">
+            <figure>
+                <img src="resources/images/Home_Pictures_Cube/color_leave.jpg" alt="">
+            </figure>
+            <figure class="">
+                <img src="resources/images/Home_Pictures_Cube/hungarian_black_red.jpg" alt="">
+            </figure>
+        </div>
+
+        <div class="col span-1-of-3 pictures__second-column slideshow-container">
+            <div class="mySlides fade">
+                <img src="resources/images/Home_Pictures_Cube/color_leave.jpg" alt="">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="resources/images/Home_Pictures_Cube/hungarian_black_red.jpg" alt="">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="resources/images/Home_Pictures_Cube/IMG_20190217_163919(1).jpg" alt="">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="resources/images/Home_Pictures_Cube/IMG_20190217_164034.jpg" alt="">
+            </div>
+        </div>
+        <!-- 
+        <div class="col span-1-of-3 pictures__second-column">
+            <figure class="middle-pictures">
+                <img src="resources/images/Virag/tollak/kepatmeretezes_hu_kepatmeretezes_hu_IMG_20181115_121002.jpg" alt="">
+            </figure>
+        </div>
+
+-->
+        <div class="col span-1-of-3 pictures__third-column bottom">
+            <figure>
+                <img src="resources/images/Home_Pictures_Cube/IMG_20190217_163919(1).jpg" alt="">
+            </figure>
+            <figure>
+                <img src="resources/images/Home_Pictures_Cube/IMG_20190217_164034.jpg" alt="">
+            </figure>
+        </div>
+    </section>
+    
+    <div>
+    <p>Maki</p>
+    </div><br><br><br>
+</body>
+
+<script>
+    var slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {
+            slideIndex = 1
+        }
+
+        slides[slideIndex - 1].style.display = "block";
+
+        setTimeout(showSlides, 3000); // Change image every 2 seconds
+    }
+</script></html>
