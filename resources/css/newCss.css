@@ -25,7 +25,7 @@ li {
 }
 
 .row {
-    max-width: 1140px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
@@ -48,6 +48,7 @@ li {
 .header-nav li a {
     text-decoration: none;
     color: #000;
+    font-size: 25px;
 }
 
 li:first-child {
@@ -77,20 +78,22 @@ li:last-of-type {
 }
 
 /*--------------------------------------*/
-/********** PICTURES - NOVELTY **********/
-/*--------------------------------------*/
-
-.novelty {
-    text-align: center;
-}
-
-/*--------------------------------------*/
 /********** PICTURES - SECTION **********/
 /*--------------------------------------*/
 
 .pictures {
     padding: 0;
     margin-top: 3%;
+}
+
+.pictures:after {
+    display: block;
+    height: 1px;
+    background-color: black;
+    content: " ";
+    width: 250px;
+    margin: 0 auto;
+    margin-top: 220px;
 }
 
 .pictures__first-column,
@@ -105,13 +108,16 @@ li:last-of-type {
     width: 70%;
     height: auto;
     margin-bottom: 10px;
+    box-shadow: 0 10px 20px 20px rgba(0, 0, 0, .101);
+}
+
+.pictures__second-column {
+    width: 30%;
 }
 
 .bottom {
     vertical-align: bottom;
-    display: table-cell;
 }
-
 
 /*--------------------------------------*/
 /*********** PICTURES - SLIDE ***********/
@@ -161,3 +167,70 @@ img {
         opacity: 1
     }
 }
+
+/*--------------------------------------*/
+/********* SECTION - COLLECTION *********/
+/*--------------------------------------*/
+
+.collection {
+    margin-top: 3%;
+}
+
+.collection__name {
+    text-align: center;
+    margin-bottom: 3%;
+    font-size: 25px;
+}
+
+.collection__pictures {
+    text-align: center;
+    margin: 5px;
+}
+
+.collection__pictures img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
