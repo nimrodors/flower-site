@@ -1,4 +1,4 @@
-/*global $,document, location*/
+/*global $, document, location*/
 
 $(document).ready(function () {
 
@@ -105,7 +105,6 @@ $('.mobile-nav-icon').click(function () {
         scrollTop: $('.js--section-ujdonsag').offset().top
     }, 1500);
 });
-
 
 
 

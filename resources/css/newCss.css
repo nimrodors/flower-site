@@ -29,6 +29,11 @@ li {
     margin: 0 auto;
 }
 
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
 /*--------------------------------*/
 /********** HEADER - NAV **********/
 /*--------------------------------*/
@@ -174,6 +179,7 @@ img {
 
 .collection {
     margin-top: 3%;
+    margin-bottom: 3%;
 }
 
 .collection__name {
@@ -183,6 +189,7 @@ img {
 }
 
 .collection__pictures {
+    position: relative;
     text-align: center;
     margin: 5px;
 }
@@ -191,4 +198,143 @@ img {
     width: 100%;
     height: auto;
 }
+
+.collection__pictures span{
+	color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.collection__pictures figure:hover a{
+	opacity: .15;
+    transition: transform 0.5s, opacity 0.5s;
+}
+.collection__pictures figure:hover span{
+	color: #000;
+}
+
+/*--------------------------------------*/
+/********* SECTION - ABOUT ME *********/
+/*--------------------------------------*/
+
+.about__me {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero_3-min.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 95vh;
+    background-attachment: inherit;
+}
+
+.about__me-first-column,
+.about__me-second-column {
+    position: relative;;
+}
+
+.about__me-content {
+    position: absolute;
+    text-align: center;
+    width: 80%;
+    margin-top: 20%;
+    margin-left: 10%
+}
+
+.about__me-title {
+    color: white;
+    text-align: center;
+    font-weight: 100;
+    margin: 10px 0;
+}
+
+.about__me-text {
+    color: white;
+    text-align: justify;
+}
+
+/*-------------------------------------------------------------*/
+/*FORM*/
+/*-------------------------------------------------------------*/
+
+.contact-form {
+    width: 60%;
+    margin: 0 auto;
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 10%
+}
+
+label {
+    color: white;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+    width: 150%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+} 
+
+textarea {
+    height: 100px;
+}
+
+input[type=checkbox] {
+    margin: 10px 5px 10px 0;
+}
+
+*:focus {outline: none}
+
+/*-------------------------------------------------------------*/
+/************************ SEND BUTTON **************************/
+/*-------------------------------------------------------------*/
+
+input[type=submit] {
+    display: inline-block;
+    border-radius: 100px;
+    text-decoration: none;
+    padding: 2px 0;
+    width: 100px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #fff;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+input[type=submit]:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

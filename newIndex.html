@@ -78,32 +78,126 @@
 
         <div class="col span-1-of-5 collection__pictures">
             <figure>
-                <img src="resources/images/Virag/acient/kepatmeretezes_hu_IMG_20190217_164135.jpg">
+                <a href="#" class="collection__link collection__pic-1">
+                    <img src="resources/images/Virag/acient/kepatmeretezes_hu_IMG_20190217_164135.jpg">
+                </a>
+                <span class="collection__theme">
+                    Ősi Kincsek
+                </span>
             </figure>
         </div>
+
         <div class="col span-1-of-5 collection__pictures">
             <figure>
-                <img src="resources/images/Virag/magyarviragok/kepatmeretezes_hu_13.jpg">
+                <a href="#" class="collection__link collection__pic-2">
+                    <img src="resources/images/Virag/tollak/kepatmeretezes_hu_19.jpg">
+                </a>
+                <span class="collection__theme">
+                    Tollak
+                </span>
             </figure>
         </div>
+
         <div class="col span-1-of-5 collection__pictures">
             <figure>
-                <img src="resources/images/Virag/tollak/kepatmeretezes_hu_24.jpg">
+                <a href="#" class="collection__link collection__pic-3">
+                    <img src="resources/images/Virag/tollak/kepatmeretezes_hu_24.jpg">
+                </a>
+                <span>Levelek</span>
             </figure>
         </div>
+
         <div class="col span-1-of-5 collection__pictures">
             <figure>
-                <img src="resources/images/Virag/tollak/kepatmeretezes_hu_23.jpg">
+                <a href="#" class="collection__link collection__pic-4">
+                    <img src="resources/images/Virag/tollak/kepatmeretezes_hu_23.jpg">
+                </a>
+                <span>Fantázia Lények</span>
             </figure>
         </div>
+
         <div class="col span-1-of-5 collection__pictures">
             <figure>
-                <img src="resources/images/Virag/acient/kepatmeretezes_hu_IMG_20190217_164013.jpg">
+                <a href="#" class="collection__link collection__pic-5">
+                    <img src="resources/images/Virag/acient/kepatmeretezes_hu_IMG_20190217_164013.jpg">
+                </a>
+                <span>Magyar Mittomén</span>
             </figure>
         </div>
+
     </section><br>
 
+    <section class="about__me">
+        <div class="col span-1-of-2 about__me-first-column">
+            <h2 class="about__me-title">Rólam</h2>
+            <div class="row about__me-content">
+                <p class="about__me-text">
+                    Üdvözöllek Honalpomam Kedves Látogató!<br><br>
+
+                    Virágnak hívnak és egyedi, saját tervezésűá ékszereket készítek.<br><br>
+
+                    Nagyon aprólékos munkával és sok türelemmel jön létre egy-egy ékszer, melyeket polymer clay anyagból (süthető gyurmából) készítek. Nem használok sablont, minden ékszerem a semmiből formálódik, alakul és születik meg, csak az anyag textúráját, felszínét mintázom, festem és lakkozom.
+                    Kérésre saját ötletet, kívánságot a legjobb tudásom szerint próbálom megvalósítani.
+                    Szóval ha szeretnél különleges ékszert magadnak, vagy meglepnél valakit vele, akkor keress bátran.<br><br>
+
+                    Kellemes nézelődést!<br><br>
+                    Stone Flower Design<br><br>
+                </p>
+            </div>
+        </div>
+        <div class="col span-1-of-2 about__me-second-column" id="form">
+            <h2 class="about__me-title">Kapcsolat</h2>
+            <div class="row">
+                <form method="post" action="mailer-new.php" class="contact-form">
+                    <div class="row">
+                        
+                        <!--Itt lesz az üzenetek box hibás/jó -->
+                        
+                        
+                        
+                        <div class="col span-1-of-3">
+                            <label for="name">Név:</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" name="name" id="name" placeholder="Neved" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="email">Email:</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="email" name="email" id="email" placeholder="Email címed" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>Írj bzalommal :-)</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <textarea name="message" placeholder="Üzenet"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>&nbsp;</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="submit" value="Küldés">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+
 </body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="vendors/js/jquery.waypoints.min.js"></script>
+<script src="resources/js/magnificpopup.js"></script>
+<script src="resources/js/script.js"></script>
 
 <script>
     var slideIndex = 0;
