@@ -244,9 +244,9 @@ img {
 }
 
 .about__me-title {
+    font-size: 25px;
     color: white;
     text-align: center;
-    font-weight: 100;
     margin: 10px 0;
     margin-top: 5%;
 }
@@ -254,6 +254,7 @@ img {
 .about__me-text {
     color: white;
     text-align: justify;
+    font-size: 20px;
 }
 
 /*-------------------------------------------------------------*/
@@ -270,6 +271,7 @@ img {
 
 label {
     color: white;
+    font-size: 20px;
 }
 
 input[type=text],
