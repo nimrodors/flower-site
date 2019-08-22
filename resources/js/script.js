@@ -16,21 +16,15 @@ $(document).ready(function () {
 });
 /*Legörget az újdonsághoz*/
 
-$('.js--scroll-to-ujdonsag-gomb').click(function () {
+$('.js--scroll-to-kollekcio-gomb').click(function () {
     $('html, body').animate({
-        scrollTop: $('.js--section-ujdonsag').offset().top
-    }, 1500);
-});
-
-$('.js--scroll-to-kollekciok-gomb').click(function () {
-    $('html, body').animate({
-        scrollTop: $('.js--section-kollekcio').offset().top
+        scrollTop: $('.js--section-kollekcio').offset().top - 15
     }, 1500);
 });
 
 $('.js--scroll-to-rolam-gomb').click(function () {
     $('html, body').animate({
-        scrollTop: $('.js--section-rolam').offset().top
+        scrollTop: $('.js--section-rolam').offset().top + 15
     }, 2000);
 });
 
@@ -44,7 +38,7 @@ $('a[href*="#"]').click(function () {
         target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
         if (target.length) {
             $('html,body').animate({
-                scrollTop: target.offset().top - 30
+                scrollTop: target.offset().top
             }, 1000);
             return false;
         }

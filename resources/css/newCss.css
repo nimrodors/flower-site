@@ -124,6 +124,38 @@ li:last-of-type {
     vertical-align: bottom;
 }
 
+/*------------------------------------------*/
+/********** PICTURES - NEW JEWETRY **********/
+/*------------------------------------------*/
+.new__jewelry {
+    position: relative;
+}
+
+.new__jewelry span,
+.new__jewelry-price {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.new__jewelry-price {
+    top: 90%;
+    left: 70%;
+    font-size: 15px;
+}
+
+.new__jewelry:hover a{
+    opacity: 0.15;
+    transition: opacity 0.5s;
+}
+
+.new__jewelry:hover span,
+.new__jewelry:hover p {
+    display: block;
+}
+
 /*--------------------------------------*/
 /*********** PICTURES - SLIDE ***********/
 /*--------------------------------------*/

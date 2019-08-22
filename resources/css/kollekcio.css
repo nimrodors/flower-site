@@ -1,0 +1,35 @@
+/*--------------------------------*/
+/*BASIC SETUP*/
+/*--------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #f7f7f7;
+    color: #000;
+    font-family: 'Courgette', 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+/*---------------------------------------*/
+/*********** NAVIGATION - LOGO ***********/
+/*---------------------------------------*/
+
+.ekszerek-nav {
+    border-bottom: 0.1px solid #fbf7f7;
+    text-align: center;
+}
+
+.ekszerek-logo-black {
+    height: 100px;
+    width: auto;
+    text-align: center;
+}

@@ -16,6 +16,7 @@
     <title>Stone Flower Design</title>
 
 </head>
+
 <body>
     <section>
         <div class="header">
@@ -25,9 +26,9 @@
                 </a>
                 <div class="menu">
                     <ul class="menu-category">
-                        <li><a href="#">Kollekciók</a></li>
+                        <li><a href="#" class="js--scroll-to-kollekcio-gomb">Kollekciók</a></li>
                         <li><a href="#">Újdonság</a></li>
-                        <li><a href="#">Rólam</a></li>
+                        <li><a href="#"  class="js--scroll-to-rolam-gomb">Rólam</a></li>
                     </ul>
                 </div>
             </nav>
@@ -36,12 +37,32 @@
 
     <section class="row pictures">
         <div class="col span-1-of-3 pictures__first-column bottom">
-            <figure>
-                <img src="resources/images/Home_Pictures_Cube/color_leave.jpg" alt="">
-            </figure>
-            <figure class="">
-                <img src="resources/images/Home_Pictures_Cube/hungarian_black_red.jpg" alt="">
-            </figure>
+            <div class="new__jewelry">
+                <figure>
+                    <a href="#">
+                        <img src="resources/images/Home_Pictures_Cube/color_leave.jpg" alt="">
+                    </a>
+                    <span>
+                        Kék levél
+                    </span>
+                    <p class="new__jewelry-price">
+                        &mdash; 2500 Ft
+                    </p>
+                </figure>
+            </div>
+            <div class="new__jewelry">
+                <figure>
+                    <a href="#">
+                        <img src="resources/images/Home_Pictures_Cube/hungarian_black_red.jpg" alt="">
+                    </a>
+                    <span>
+                        Magyar Motívum
+                    </span>
+                    <p class="new__jewelry-price">
+                        &mdash; 2900 Ft
+                    </p>
+                </figure>
+            </div>
         </div>
 
         <div class="col span-1-of-3 pictures__second-column slideshow-container">
@@ -63,16 +84,36 @@
         </div>
 
         <div class="col span-1-of-3 pictures__third-column bottom">
-            <figure>
-                <img src="resources/images/Home_Pictures_Cube/IMG_20190217_163919(1).jpg" alt="">
-            </figure>
-            <figure>
-                <img src="resources/images/Home_Pictures_Cube/IMG_20190217_164034.jpg" alt="">
-            </figure>
+            <div class="new__jewelry">
+                <figure>
+                    <a href="">
+                        <img src="resources/images/Home_Pictures_Cube/IMG_20190217_163919(1).jpg" alt="">
+                    </a>
+                    <span>
+                        Szarumán szeme
+                    </span>
+                    <p class="new__jewelry-price">
+                        &mdash; 2250 Ft
+                    </p>
+                </figure>
+            </div>
+            <div class="new__jewelry">
+                <figure>
+                    <a href="">
+                        <img src="resources/images/Home_Pictures_Cube/IMG_20190217_164034.jpg" alt="">
+                    </a>
+                    <span>
+                        Bilbó tarsolya
+                    </span>
+                    <p class="new__jewelry-price">
+                        &mdash; 3100 Ft
+                    </p>
+                </figure>
+            </div>
         </div>
     </section>
 
-    <section class="row collection">
+    <section class="row collection js--section-kollekcio">
         <p class="collection__name">Kollekciók</p>
 
         <div class="col span-1-of-5 collection__pictures">
@@ -126,7 +167,7 @@
 
     </section><br>
 
-    <section class="about__me">
+    <section class="about__me js--section-rolam">
         <div class="col span-1-of-2 about__me-first-column">
             <p class="about__me-title">Rólam</p>
             <div class="row about__me-content">
@@ -229,7 +270,4 @@
 
         setTimeout(showSlides, 3000); // Change image every 2 seconds
     }
-
-</script>
-
-</html>
+</script></html>
