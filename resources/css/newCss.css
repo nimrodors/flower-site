@@ -199,28 +199,30 @@ img {
     height: auto;
 }
 
-.collection__pictures span{
-	color: white;
+.collection__pictures span {
+    color: white;
     font-size: 25px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.collection__pictures figure:hover a{
-	opacity: .15;
+
+.collection__pictures figure:hover a {
+    opacity: .15;
     transition: transform 0.5s, opacity 0.5s;
 }
-.collection__pictures figure:hover span{
-	color: #000;
+
+.collection__pictures figure:hover span {
+    color: #000;
 }
 
-/*--------------------------------------*/
-/********* SECTION - ABOUT ME *********/
-/*--------------------------------------*/
+/*--------------------------------------------------------------------------*/
+/***************************** SECTION - ABOUT ME ***************************/
+/*-------------------------------------------------------------------------*/
 
 .about__me {
-    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero_3-min.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero_3-min.jpg);
     background-size: cover;
     background-position: center;
     height: 95vh;
@@ -229,7 +231,8 @@ img {
 
 .about__me-first-column,
 .about__me-second-column {
-    position: relative;;
+    position: relative;
+    ;
 }
 
 .about__me-content {
@@ -276,7 +279,7 @@ textarea {
     padding: 7px;
     border-radius: 3px;
     border: 1px solid #ccc;
-} 
+}
 
 textarea {
     height: 100px;
@@ -286,7 +289,9 @@ input[type=checkbox] {
     margin: 10px 5px 10px 0;
 }
 
-*:focus {outline: none}
+*:focus {
+    outline: none
+}
 
 /*-------------------------------------------------------------*/
 /************************ SEND BUTTON **************************/
@@ -337,15 +342,9 @@ input[type=submit]:hover {
 
 
 footer {
-    background: #fff;
-    /*background: #CDC9BC;*/
+    background: #f7f7f7;
     padding: 16px;
     font-size: 80%;
-}
-
-.footer-nav {
-    list-style: none;
-    float: left;
 }
 
 .social-icons {
@@ -353,34 +352,21 @@ footer {
     float: right;
 }
 
-.footer-nav li,
 .social-icons li {
     display: inline-block;
     margin-right: 20px;
 }
 
-.footer-nav li:last-child,
 .social-icons li:last-child {
     margin: 0;
 }
 
-.footer-nav li a:link,
-.footer-nav li a:visited,
 .social-icons li a:link,
 .social-icons li a:visited {
     text-decoration: none;
     border: 0;
     color: #000;
     transition: color 0.3s;
-}
-
-.footer-nav li a:hover,
-.footer-nav li a:active {
-    color: #1b1b1b;
-}
-
-.social-icons li a:link,
-.social-icons li a:visited {
     font-size: 140%;
 }
 
@@ -389,33 +375,21 @@ footer {
     transition: color 0.4s;
 }
 
-
-.ion-social-facebook:hover {
-    color: #1b1b1b;
-}
-
+.ion-social-facebook:hover,
 .ion-social-instagram:hover {
     color: #1b1b1b;
-}
-
-footer p {
-    font-size: 80%;
-    color: black;
-    text-align: center;
-    margin-top: 1px;
-    margin-bottom: 5px;
 }
 
 /*--------------------------------*/
 /********** COMPANY NAME **********/
 /*--------------------------------*/
 
-.footer__title {
-    top: 35%;
-    left: 50%;
-    color: #00205B;
-    float: right;
-    margin-right: 5%;
+.footer__company {
+    font-size: 80%;
+    color: black;
+    margin-top: 1px;
+    margin-bottom: 5px;
+    text-align: center;
 }
 
 .company__name {
@@ -432,29 +406,6 @@ footer p {
 .company-title {
     text-decoration: none;
     color: black;
+    border-bottom: 1px solid #cfcfcf;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
