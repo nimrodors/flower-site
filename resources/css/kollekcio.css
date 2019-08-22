@@ -20,7 +20,7 @@ body {
 }
 
 .row {
-    max-width: 1400px;
+    max-width: 1050px;
     margin: 0 auto;
 }
 
@@ -29,7 +29,7 @@ body {
 /*---------------------------------------*/
 
 .ekszerek-nav {
-    border-bottom: 0.1px solid #fbf7f7;
+    border-bottom: 0.1px solid #f7f7f7;
     text-align: center;
     margin-top: 20px
 }
@@ -52,7 +52,8 @@ body {
 
 .collection li {
     display: inline-block;
-    margin-left: 100px;
+    margin-right: 50px;
+    margin-left: 25px;
     margin-top: 25px;
     margin-bottom: 3%;
 }
@@ -77,8 +78,105 @@ body {
 
 }
 
+/*-------------------------------------------*/
+/****************** JEWELRY ******************/
+/*-------------------------------------------*/
+.jewelry__row {
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.collection__name {
+    text-align: center;
+    margin-bottom: 3%;
+    font-size: 25px;
+}
+
+.collection__pictures {
+    position: relative;
+    text-align: center;
+    margin: 5px;
+}
+
+.collection__pictures img {
+    width: 80%;
+    height: auto;
+}
+
+/*--------------------------------*/
+/*FOOTER*/
+/*--------------------------------*/
 
 
+footer {
+    background: #f7f7f7;
+    padding: 16px;
+    font-size: 80%;
+    border-top: 1px solid #e8e8e8;
+    margin-top: 20px;
+}
+
+.social-icons {
+    list-style: none;
+    float: right;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.social-icons li:last-child {
+    margin: 0;
+}
+
+.social-icons li a:link,
+.social-icons li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: #000;
+    transition: color 0.3s;
+    font-size: 140%;
+}
+
+.ion-social-facebook,
+.ion-social-instagram {
+    transition: color 0.4s;
+}
+
+.ion-social-facebook:hover,
+.ion-social-instagram:hover {
+    color: #1b1b1b;
+}
+
+/*--------------------------------*/
+/********** COMPANY NAME **********/
+/*--------------------------------*/
+
+.footer__company {
+    font-size: 80%;
+    color: black;
+    margin-top: 1px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.company__name {
+    cursor: pointer;
+    transition: font-size 0.3s;
+}
+
+.company__name:hover {
+    font-size: 102%;
+    font-weight: 700;
+    transition: font-size 0.5s;
+}
+
+.company-title {
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid #cfcfcf;
+}
 
 
 

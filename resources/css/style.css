@@ -18,7 +18,7 @@ html,
 body {
     background-color: #fff;
     color: #000;
-    font-family: 'Kaushan Script', 'Arial', sans-serif;
+    font-family: 'Courgette', 'Lato', 'Arial', sans-serif;
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
@@ -220,17 +220,6 @@ header {
 /*ÉKSZEREK*/
 /*--------------------------------*/
 
-.ekszerek {
-    /*padding-top: 20px;*/
-    /*background-color: #CDC9BC;*/
-    background-color: #f7f7f7;
-    padding-bottom: 30px;
-}
-
-.ekszer-box {
-    text-align: center;
-    /* Ha ezt állítom be akkor a szöveget teszi középre*/
-}
 
 .ekszer-box img {
     width: 80%;
@@ -514,17 +503,22 @@ footer p {
     padding-top: 15px;
 }
 
-/* ------ LOGO Formázás ------ */
+/*---------------------------------------*/
+/*********** NAVIGATION - LOGO ***********/
+/*---------------------------------------*/
+
+.ekszerek-nav {
+    border-bottom: 0.1px solid #f7f7f7;
+    text-align: center;
+    margin-top: 20px
+}
 
 .ekszerek-logo-black {
-    transition: 0.5s;
+    height: 100px;
+    width: auto;
+    text-align: center;
 }
 
-
-.ekszerek-logo-black:hover {
-    opacity: 0.5;
-    transition: opacity 0.5s;
-}
 
 /* ------ FELUGRÓ KÉP FORMÁZÁSA ------ */
 
