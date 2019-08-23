@@ -14,6 +14,7 @@ $(document).ready(function () {
         offset: '50px'
     });
 });
+
 /*Legörget az újdonsághoz*/
 
 $('.js--scroll-to-kollekcio-gomb').click(function () {

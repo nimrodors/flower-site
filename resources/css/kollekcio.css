@@ -61,7 +61,7 @@ body {
 .collection li a {
     text-decoration: none;
     color: black;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #f7f7f7;
     transition: border-bottom 0.5s;
 }
 
@@ -83,7 +83,7 @@ body {
 /*-------------------------------------------*/
 .jewelry__row {
     text-align: center;
-    margin-bottom: 3%;
+    margin-bottom: 40px;
 }
 
 .collection__name {
@@ -99,10 +99,35 @@ body {
 }
 
 .collection__pictures img {
-    width: 80%;
+    width: 75%;
     height: auto;
 }
 
+/*----------------------------------------------------------*/
+/****************** JEWELRY - NAME - PRICE ******************/
+/*----------------------------------------------------------*/
+.jewelry__name-price {
+    text-align: left;
+    margin-left: 12%;
+    margin-top: 20px;
+}
+
+.jw__name {
+    text-decoration: none;
+    color: black;
+    
+}
+
+.jw__name p {
+    margin-bottom: 5px;
+    font-weight: normal;
+    font-size: 80%;
+}
+
+.jw__price {
+    font-weight: bold;
+    font-size: 80%;
+}
 /*--------------------------------*/
 /*FOOTER*/
 /*--------------------------------*/
@@ -168,7 +193,7 @@ footer {
 
 .company__name:hover {
     font-size: 102%;
-    font-weight: 700;
+    font-weight: 600;
     transition: font-size 0.5s;
 }
 
