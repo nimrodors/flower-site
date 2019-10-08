@@ -13,6 +13,7 @@
     <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
 
     <link href="https://fonts.googleapis.com/css?family=Courgette&display=swap&subset=latin-ext" rel="stylesheet" type="text/css">
+
     <title>Stone Flower Design</title>
 
 </head>
@@ -28,7 +29,7 @@
                     <ul class="menu-category">
                         <li><a href="#" class="js--scroll-to-kollekcio-gomb">Kollekciók</a></li>
                         <li><a>Újdonság</a></li>
-                        <li><a href="#"  class="js--scroll-to-rolam-gomb">Rólam</a></li>
+                        <li><a href="#" class="js--scroll-to-rolam-gomb">Rólam</a></li>
                     </ul>
                 </div>
             </nav>
@@ -118,8 +119,8 @@
 
         <div class="col span-1-of-5 collection__pictures">
             <figure>
-                <a href="kollekcio_%C3%B6si.html" class="collection__link collection__pic-1">
-                    <img src="resources/images/Virag/magyarviragok/kepatmeretezes_hu_14.jpg">
+                <a href="kollekcio.html" class="collection__link collection__pic-1">
+                    <img id="ancient__treasure" src="resources/images/Virag/magyarviragok/kepatmeretezes_hu_14.jpg">
                 </a>
                 <span>Ősi Kincsek</span>
             </figure>
@@ -127,8 +128,8 @@
 
         <div class="col span-1-of-5 collection__pictures">
             <figure>
-                <a href="#" class="collection__link collection__pic-2">
-                    <img src="resources/images/Virag/tollak/kepatmeretezes_hu_19.jpg">
+                <a href="kollekcio.html" class="collection__link collection__pic-2">
+                    <img  id="feathers" src="resources/images/Virag/tollak/kepatmeretezes_hu_19.jpg">
                 </a>
                 <span>Tollak</span>
             </figure>
@@ -136,8 +137,8 @@
 
         <div class="col span-1-of-5 collection__pictures">
             <figure>
-                <a href="#" class="collection__link collection__pic-3">
-                    <img src="resources/images/Virag/tollak/kepatmeretezes_hu_24.jpg">
+                <a href="kollekcio.html" class="collection__link collection__pic-3">
+                    <img id="leaves" src="resources/images/Virag/tollak/kepatmeretezes_hu_24.jpg">
                 </a>
                 <span>Levelek</span>
             </figure>
@@ -145,8 +146,8 @@
 
         <div class="col span-1-of-5 collection__pictures">
             <figure>
-                <a href="#" class="collection__link collection__pic-4">
-                    <img src="resources/images/Virag/tollak/kepatmeretezes_hu_23.jpg">
+                <a href="kollekcio.html" class="collection__link collection__pic-4">
+                    <img id="fantasy__creatures" src="resources/images/Virag/tollak/kepatmeretezes_hu_23.jpg">
                 </a>
                 <span>Fantázia Lények</span>
             </figure>
@@ -154,8 +155,8 @@
 
         <div class="col span-1-of-5 collection__pictures">
             <figure>
-                <a href="#" class="collection__link collection__pic-5">
-                    <img src="resources/images/Virag/tollak/kepatmeretezes_hu_25.jpg">
+                <a href="kollekcio.html" class="collection__link collection__pic-5">
+                    <img id="hungarian__motif" src="resources/images/Virag/tollak/kepatmeretezes_hu_25.jpg">
                 </a>
                 <span>Magyar Mittomén</span>
             </figure>
@@ -164,6 +165,7 @@
     </section><br>
 
     <section class="about__me js--section-rolam">
+
         <div class="col span-1-of-2 about__me-first-column">
             <p class="about__me-title">Rólam</p>
             <div class="row about__me-content">
@@ -239,31 +241,31 @@
         </div>
     </footer>
 
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
 
-</body>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="vendors/js/jquery.waypoints.min.js"></script>
-<script src="resources/js/magnificpopup.js"></script>
-<script src="resources/js/script.js"></script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+    <script src="resources/js/script.js"></script>
 
-<script>
-    var slideIndex = 0;
-    showSlides();
+    <script>
+        var slideIndex = 0;
+        showSlides();
 
-    function showSlides() {
-        var i;
-        var slides = document.getElementsByClassName("mySlides");
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
 
-        for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1
+            }
+
+            slides[slideIndex - 1].style.display = "block";
+
+            setTimeout(showSlides, 3000); // Change image every 2 seconds
         }
-        slideIndex++;
-        if (slideIndex > slides.length) {
-            slideIndex = 1
-        }
-
-        slides[slideIndex - 1].style.display = "block";
-
-        setTimeout(showSlides, 3000); // Change image every 2 seconds
-    }
-</script></html>
+    </script>
+</body></html>

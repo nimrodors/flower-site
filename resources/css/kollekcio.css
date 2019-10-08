@@ -31,7 +31,8 @@ body {
 .ekszerek-nav {
     border-bottom: 0.1px solid #f7f7f7;
     text-align: center;
-    margin-top: 20px
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .ekszerek-logo-black {
@@ -73,9 +74,8 @@ body {
 /*************** CURRENT - PAGE **************/
 /*-------------------------------------------*/
 
-.current__page{
-    border-bottom: 1px solid #cfcfcf;
-
+.current__page {
+    /*border-bottom: 1px solid #cfcfcf;*/
 }
 
 /*-------------------------------------------*/
@@ -112,16 +112,15 @@ body {
     margin-top: 20px;
 }
 
-.jw__name {
+.jewelry__name-price a {
     text-decoration: none;
-    color: black;
-    
 }
 
-.jw__name p {
+.jw__name {
+    color: black;
     margin-bottom: 5px;
     font-weight: normal;
-    font-size: 80%;
+    font-size: 90%;
 }
 
 .jw__price {

@@ -3,189 +3,215 @@
 
     <head>
 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
-        <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
-        <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
-        <link rel="stylesheet" type="text/css" href="resources/css/style.css">
-        <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
-        <link rel="stylesheet" type="text/css" href="resources/css/jewelry__viewer.css">
-        <link rel="stylesheet" href="vendors/css/magnific-popup.css">
-        <link href="https://fonts.googleapis.com/css?family=Courgette&display=swap&subset=latin-ext" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/jewelry__viewer.css">
+    <link rel="stylesheet" href="vendors/css/magnific-popup.css">
+    <link href="https://fonts.googleapis.com/css?family=Courgette&display=swap&subset=latin-ext" rel="stylesheet" type="text/css">
 
-        <title>Angyal</title>
+    <title>Angyal</title>
 
-    </head>
+</head>
 
-    <body>
-        <section class="nav">
-            <nav>
-                <div class="row ekszerek-nav">
-                    <div>
-                        <a href="index.html"><img src="resources/images/fekete.png" alt="logo" class="ekszerek-logo-black"></a>
-                    </div>
+<body>
+    <section class="nav">
+        <nav>
+            <div class="row ekszerek-nav">
+                <div>
+                    <a href="index.html"><img src="resources/images/fekete.png" alt="logo" class="ekszerek-logo-black"></a>
                 </div>
-            </nav>
-        </section>
-        <section class="onallo-ekszer">
-            <div class="btn">
-                <a href="kollekcio_%C3%B6si.html" class="back__btn">Vissza</a>
             </div>
-            <div class="row angyal-box">
-                <div class="col span-1-of-2 col--kivalasztott-ekszer">
+        </nav>
+    </section>
+    
+    <section class="onallo-ekszer">
+        <div class="btn">
+            <a href="kollekcio.html" class="back__btn" id="vissza">Vissza</a>
+        </div>
+        <div class="row angyal-box">
+            <div class="col span-1-of-2 col--kivalasztott-ekszer">
 
-                    <div>
-                        <img src="resources/ekszer/angyal/1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow" id="nagykep">
-                    </div>
-                    <div class="egymas-alatt">
-                        <img src="resources/ekszer/angyal/2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
-                        <img src="resources/ekszer/angyal/3.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
-                        <img src="resources/ekszer/angyal/4.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
-                    </div>
+                <div>
+                    <img src="resources/ekszer/angyal/1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow" id="nagykep">
+                </div>
+                <div class="egymas-alatt">
+                    <img src="resources/ekszer/angyal/2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+                    <img src="resources/ekszer/angyal/3.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+                    <img src="resources/ekszer/angyal/4.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+                </div>
 
-                    <!-- The Modal -->
-                    <!-- The Modal/Lightbox -->
-                    <div id="myModal" class="modal">
-                        <span class="close cursor" onclick="closeModal()">&times;</span>
-                        <div class="modal-content">
+                <!-- The Modal -->
+                <!-- The Modal/Lightbox -->
+                <div id="myModal" class="modal">
+                    <span class="close cursor" onclick="closeModal()">&times;</span>
+                    <div class="modal-content">
 
-                            <div class="mySlides">
-                                <div class="numbertext">1 / 4</div>
-                                <img src="resources/ekszer/angyal/1.jpg">
-                            </div>
-
-                            <div class="mySlides">
-                                <div class="numbertext">2 / 4</div>
-                                <img src="resources/ekszer/angyal/2.jpg">
-                            </div>
-
-                            <div class="mySlides">
-                                <div class="numbertext">3 / 4</div>
-                                <img src="resources/ekszer/angyal/3.jpg">
-                            </div>
-
-                            <div class="mySlides">
-                                <div class="numbertext">4 / 4</div>
-                                <img src="resources/ekszer/angyal/4.jpg">
-                            </div>
-
-                            <!-- Next/previous controls -->
-                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                        <div class="mySlides">
+                            <div class="numbertext">1 / 4</div>
+                            <img src="resources/ekszer/angyal/1.jpg">
                         </div>
-                    </div>
 
+                        <div class="mySlides">
+                            <div class="numbertext">2 / 4</div>
+                            <img src="resources/ekszer/angyal/2.jpg">
+                        </div>
 
-                </div>
+                        <div class="mySlides">
+                            <div class="numbertext">3 / 4</div>
+                            <img src="resources/ekszer/angyal/3.jpg">
+                        </div>
 
-                <div class="col span-1-of-2 col--kivalasztott-ekszer col--kivalasztott-ekszer--2 jewerly__content">
-                    <p class="ekszer-nev">Angyal</p>
-                    <p class="ekszer-erteke">18000</p>
-                    <hr class="hr-kicsi">
-                    <div>
-                        <p class="ekszer-reszletek ekszer-reszletek__1">
-                            Ez egy csodaszép angyal. Készült ilyen és olyan alapanyagból.
-                            Kiválló nyaklánc soha el nem kopik.
-                        </p>
-                    </div>
-                    <div>
-                        <p class="ekszer-reszletek">
-                            Ékszer anyaga mérete: pl gyúrma, vagy acél, vagy vas
-                            13mm széles 54 hosszú
-                        </p>
-                    </div>
-                    <div>
-                        <p class="ekszer-reszletek">
-                            Itt a cikkszám lesz: ez alapján fogja a kollegína vagy
-                            kollega megrengelni a cuccot: pl: angyal: angyal0023
-                        </p>
+                        <div class="mySlides">
+                            <div class="numbertext">4 / 4</div>
+                            <img src="resources/ekszer/angyal/4.jpg">
+                        </div>
+
+                        <!-- Next/previous controls -->
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
                     </div>
                 </div>
+
+
             </div>
-        </section>
 
-
-        <footer>
-            <div class="row">
-                <div class="col footer--col">
-                    <ul class="social-icons">
-                        <li><a href="https://www.facebook.com/stoneflowerdesign/" target="_blank"><i class="ion-social-facebook"></i></a></li>
-                        <li><a href="https://www.instagram.com/stone.flower.design/" target="_blank"><i class="ion-social-instagram"></i></a></li>
-                    </ul>
+            <div class="col span-1-of-2 col--kivalasztott-ekszer col--kivalasztott-ekszer--2 jewerly__content">
+                <p class="ekszer-nev">Angyal</p>
+                <p class="ekszer-erteke">18000</p>
+                <hr class="hr-kicsi">
+                <div>
+                    <p class="ekszer-reszletek ekszer-reszletek__1">
+                        Ez egy csodaszép angyal. Készült ilyen és olyan alapanyagból.
+                        Kiválló nyaklánc soha el nem kopik.
+                    </p>
                 </div>
-
+                <div>
+                    <p class="ekszer-reszletek">
+                        Ékszer anyaga mérete: pl gyúrma, vagy acél, vagy vas
+                        13mm széles 54 hosszú
+                    </p>
+                </div>
+                <div>
+                    <p class="ekszer-reszletek">
+                        Itt a cikkszám lesz: ez alapján fogja a kollegína vagy
+                        kollega megrengelni a cuccot: pl: angyal: angyal0023
+                    </p>
+                </div>
             </div>
-            <div class="row footer__company">
-                <p class="footer__company-title">
-                    Copyright &copy; 2019 <span class="company__name"><a href="https://www.linkedin.com/in/nimr%C3%B3d-%C3%B6rs-macsim-ab050b102/" class="company-title" target="_blank">Maky&amp;Brumy Corporation.</a></span> All rights reserved.
-                </p>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="row">
+            <div class="col footer--col">
+                <ul class="social-icons">
+                    <li><a href="https://www.facebook.com/stoneflowerdesign/" target="_blank"><i class="ion-social-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com/stone.flower.design/" target="_blank"><i class="ion-social-instagram"></i></a></li>
+                </ul>
             </div>
-        </footer>
 
-        <script>
-            /*Get the modal*/
-            var modal = document.getElementById("myModal");
-            // Open the Modal
-            function openModal() {
-                document.getElementById('myModal').style.display = "block";
-            }
+        </div>
+        <div class="row footer__company">
+            <p class="footer__company-title">
+                Copyright &copy; 2019 <span class="company__name"><a href="https://www.linkedin.com/in/nimr%C3%B3d-%C3%B6rs-macsim-ab050b102/" class="company-title" target="_blank">Maky&amp;Brumy Corporation.</a></span> All rights reserved.
+            </p>
+        </div>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js"></script>
 
-            // Close the Modal
-            function closeModal() {
-                document.getElementById('myModal').style.display = "none";
-            }
-
-            var slideIndex = 1;
-            showSlides(slideIndex);
-
-            // Next/previous controls
-            function plusSlides(n) {
-                showSlides(slideIndex += n);
-            }
-
-            // Thumbnail image controls
-            function currentSlide(n) {
-                showSlides(slideIndex = n);
-            }
-
-            function showSlides(n) {
-                var i;
-                var slides = document.getElementsByClassName("mySlides");
-                var dots = document.getElementsByClassName("demo");
-                var captionText = document.getElementById("caption");
-                if (n > slides.length) {
-                    slideIndex = 1
-                }
-                if (n < 1) {
-                    slideIndex = slides.length
-                }
-                for (i = 0; i < slides.length; i++) {
-                    slides[i].style.display = "none";
-                }
-                for (i = 0; i < dots.length; i++) {
-                    dots[i].className = dots[i].className.replace(" active", "");
-                }
-                slides[slideIndex - 1].style.display = "block";
-                dots[slideIndex - 1].className += "active";
-                captionText.innerHTML = dots[slideIndex - 1].alt;
-            }
-
-            /* When the user clicks anywhere outside of the modal, close it */
-            window.onclick = function(event) {
-                if (event.target === modal) {
-                    modal.style.display = "none";
-                }
-            };
-
-        </script>
-
-
-    </body>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
     <!-- Magnific Popup core JS file -->
     <script src="vendors/js/jquery.magnific-popup.js"></script>
-    <script src="resources/js/script.js"></script>
+    
 
-    </html>
+    <script>
+        /*Get the modal*/
+        var modal = document.getElementById("myModal");
+        // Open the Modal
+        function openModal() {
+            document.getElementById('myModal').style.display = "block";
+        }
+
+        // Close the Modal
+        function closeModal() {
+            document.getElementById('myModal').style.display = "none";
+        }
+
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        // Next/previous controls
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        // Thumbnail image controls
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("demo");
+            var captionText = document.getElementById("caption");
+            if (n > slides.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = slides.length
+            }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += "active";
+            captionText.innerHTML = dots[slideIndex - 1].alt;
+        }
+
+        /* When the user clicks anywhere outside of the modal, close it */
+        window.onclick = function(event) {
+            if (event.target === modal) {
+                modal.style.display = "none";
+            }
+        };
+    </script>
+    <script>
+        //előző oldal linkjét itt mentem el
+        var previousLink = document.referrer;
+        
+        //itt tárolom el a kollekciók url-jét a previousLinkben
+        try {
+            localStorage.setItem('previousLink', previousLink);
+        } catch (error) {
+            console.log(error + ' Hiba');
+        }
+        console.log(previousLink);
+        
+        //Átadom a 'vissza' id-ú hrefnek a kollekciók URL-t
+        var a = document.getElementById('vissza');
+        a.href = previousLink;
+    </script>
+    <script>
+        var cName, collectionName;
+        
+        cName = localStorage['collectionName'];
+        
+        collectionName = cName;
+        console.log(collectionName);
+    </script>
+
+
+</body></html>

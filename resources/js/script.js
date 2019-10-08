@@ -40,7 +40,7 @@ $('a[href*="#"]').click(function () {
         if (target.length) {
             $('html,body').animate({
                 scrollTop: target.offset().top
-            }, 1000);
+            }, 2000);
             return false;
         }
     }
@@ -56,24 +56,24 @@ $('.js--wp-1').waypoint(function () {
 
 /*LIGHTBOX GALERY*/
 
-$(document).ready(function() {
-	$('.popup-gallery').magnificPopup({
-		delegate: 'a',
-		type: 'image',
-		tLoading: 'Loading image #%curr%...',
-		mainClass: 'mfp-img-mobile',
-		gallery: {
-			enabled: true,
-			navigateByImgClick: true,
-			preload: [0,1] // Will preload 0 - before current, and 1 after the current image
-		},
-		image: {
-			tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
-			titleSrc: function(item) {
-				return item.el.attr('title') + '<small>by Marsel Van Oosten</small>';
-			}
-		}
-	});
+$(document).ready(function () {
+    $('.popup-gallery').magnificPopup({
+        delegate: 'a',
+        type: 'image',
+        tLoading: 'Loading image #%curr%...',
+        mainClass: 'mfp-img-mobile',
+        gallery: {
+            enabled: true,
+            navigateByImgClick: true,
+            preload: [0, 1] // Will preload 0 - before current, and 1 after the current image
+        },
+        image: {
+            tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+            titleSrc: function (item) {
+                return item.el.attr('title') + '<small>by Marsel Van Oosten</small>';
+            }
+        }
+    });
 });
 
 /*-------------------- MOBILE NAVIGÁCIÓ ------------------*/
@@ -101,25 +101,20 @@ $('.mobile-nav-icon').click(function () {
     }, 1500);
 });
 
+var div = document.getElementsByClassName('collection')[0];
+
+div.addEventListener('click', function (event) {
+    var collectionName;
+    
+    //Itt tárolom el a kollekció nevét és adom át a collection.js-nek. Ami megjeleníti a megfelelő kollekciót
+    collectionName = event.target.id;
+
+    try {
+        localStorage.setItem('collectionName', collectionName);
+        console.log('Maki Siker');
+    } catch (error) {
+        console.log(error + ' Hiba');
+    }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+});

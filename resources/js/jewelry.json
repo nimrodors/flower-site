@@ -1,0 +1,186 @@
+{
+    "collection": [
+        {
+            "ancient__treasure": [
+                {
+                    "name": "Platón ékköve",
+                    "price": "1950&nbsp;Ft",
+                    "img": [
+                        {
+                            "collection__picture": "resources/images/collection/ancient/kepatmeretezes_hu_IMG_20190217_161546.jpg"
+                        }
+                    ]
+                },
+                {
+                    "name": "Spárta Karma",
+                    "price": "2850&nbsp;Ft",
+                    "img": [
+                        {
+                            "collection__picture": "resources/images/collection/ancient/kepatmeretezes_hu_IMG_20190217_161607.jpg"
+                        }
+                    ]
+                },
+                {
+                    "name": "Kárthágó Aranya",
+                    "price": "3050&nbsp;Ft",
+                    "img": [
+                        {
+                            "collection__picture": "resources/images/collection/ancient/kepatmeretezes_hu_IMG_20190217_161625.jpg"
+                        }
+                    ]
+                },
+                {
+                    "name": "Platón Ékköve",
+                    "price": "1950&nbsp;Ft",
+                    "img": [
+                        {
+                            "collection__picture": "resources/images/collection/ancient/kepatmeretezes_hu_IMG_20190217_163919.jpg"
+                        }
+                    ]
+                },
+                {
+                    "name": "Delphi Tudása",
+                    "price": "2300&nbsp;Ft",
+                    "img": [
+                        {
+                            "collection__picture": "resources/images/collection/ancient/kepatmeretezes_hu_IMG_20190217_164034.jpg"
+                        }
+                    ]
+                },
+                {
+                    "name": "Leonidász Köve",
+                    "price": "1950&nbsp;Ft",
+                    "img": [
+                        {
+                            "collection__picture": "resources/images/collection/ancient/kepatmeretezes_hu_IMG_20190217_164057.jpg"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "feathers": [
+                {
+                    "name": "Kék Levél",
+                    "price": "2500&nbsp;Ft",
+                    "img": [
+                        {
+                            "collection__picture": "resources/images/collection/feathers/kepatmeretezes_hu_18.jpg"
+                        },
+                        {
+                            "first": "resources/images/Virag/tollak/Blue_feather/kepatmeretezes_hu_18.jpg"
+                        },
+                        {
+                            "second": "resources/images/Virag/tollak/Blue_feather/kepatmeretezes_hu_19.jpg"
+                        },
+                        {
+                            "third": "resources/images/Virag/tollak/Blue_feather/kepatmeretezes_hu_22.jpg"
+                        },
+                        {
+                            "fourth": "resources/images/Virag/tollak/Blue_feather/kepatmeretezes_hu_23.jpg"
+                        }
+                    ]
+                },
+                {
+                    "name": "Bordó Levél",
+                    "price": "&mdash;&nbsp;2500&nbsp;Ft",
+                    "img": [
+                        {
+                            "collection__picture": "resources/images/collection/feathers/kepatmeretezes_hu_19.jpg"
+                        },
+                        {
+                            "1": "resources/images/Virag/tollak/Blue_feather/kepatmeretezes_hu_18.jpg"
+                        },
+                        {
+                            "2": "resources/images/Virag/tollak/Claret_feather/kepatmeretezes_hu_22.jpg"
+                        },
+                        {
+                            "3": "resources/images/Virag/tollak/Claret_feather/kepatmeretezes_hu_23.jpg"
+                        },
+                        {
+                            "4": "resources/images/Virag/tollak/Claret_feather/kepatmeretezes_hu_24.jpg"
+                        }
+                    ]
+                },
+                {
+                    "name": "Hármas Levél",
+                    "price": "&mdash;&nbsp;2590&nbsp;Ft",
+                    "img": [
+                        {
+                            "collection__picture": "resources/images/collection/feathers/kepatmeretezes_hu_22.jpg"
+                    }
+                    ]
+                },
+                {
+                    "name": "Aranyozott Dupla",
+                    "price": "&mdash;&nbsp;4500&nbsp;Ft",
+                    "img": [
+                        {
+                            "collection__picture": "resources/images/collection/feathers/kepatmeretezes_hu_25.jpg"
+                        }
+                    ]
+                },
+                {
+                    "name": "Hosszú Kék",
+                    "price": "&mdash;&nbsp;3270&nbsp;Ft",
+                    "img": [
+                        {
+                            "collection__picture": "resources/images/collection/feathers/kepatmeretezes_hu_24.jpg"
+                        }
+                    ]
+                },
+                {
+                    "name": "Dupla Kék",
+                    "price": "&mdash;&nbsp;2270&nbsp;Ft",
+                    "img": [
+                        {
+                            "collection__picture": "resources/images/collection/feathers/kepatmeretezes_hu_kepatmeretezes_hu_IMG_20181115_121002.jpg"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "hungarian_motif": [
+                {
+                    "id": 1,
+                    "name": "Arany Motívum",
+                    "price": "&mdash;&nbsp;3250&nbsp;Ft",
+                    "img": [
+                        {
+                            "1": "resources/images/Virag/magyarviragok/Golden_Hungarian_Motif/kepatmeretezes_hu_3.jpg"
+                        },
+                        {
+                            "2": "resources/images/Virag/magyarviragok/Golden_Hungarian_Motif/kepatmeretezes_hu_4.jpg"
+                        },
+                        {
+                            "1": "resources/images/Virag/magyarviragok/Golden_Hungarian_Motif/kepatmeretezes_hu_5.jpg"
+                        },
+                        {
+                            "1": "resources/images/Virag/magyarviragok/Golden_Hungarian_Motif/kepatmeretezes_hu_6.jpg"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "name": "Sárga Motívum",
+                    "price": "&mdash;&nbsp;3150&nbsp;Ft",
+                    "img": [
+                        {
+                            "1": "resources/images/Virag/magyarviragok/Yellow_Hungarian_Motif/kepatmeretezes_hu_6.jpg"
+                        },
+                        {
+                            "2": "resources/images/Virag/magyarviragok/Yellow_Hungarian_Motif/kepatmeretezes_hu_8.jpg"
+                        },
+                        {
+                            "1": "resources/images/Virag/magyarviragok/Yellow_Hungarian_Motif/kepatmeretezes_hu_11.jpg"
+                        },
+                        {
+                            "1": "resources/images/Virag/magyarviragok/Yellow_Hungarian_Motif/kepatmeretezes_hu_12.jpg"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
