@@ -78,28 +78,13 @@ $(document).ready(function () {
 
 /*-------------------- MOBILE NAVIGÁCIÓ ------------------*/
 
-/*
-$('.js--nav-icon').click(function() {
-    var nav = $('.js--main-nav');
-    var icon = $('.js--nav-icon i');
-    
-    nav.slideToggle(200);
-    
-    if(icon.hasClass('ion-navicon')) {
-        icon.addClass('ion-close');
-        icon.removeClass('ion-navicon');
-    } else {
-        icon.addClass('ion-navicon');
-        icon.removeClass('ion-close');
-    }
-});
-*/
-
 $('.mobile-nav-icon').click(function () {
     $('html, body').animate({
         scrollTop: $('.js--section-ujdonsag').offset().top
     }, 1500);
 });
+
+//Ebben a fügvényben tárolom el a kijelölt kollekciókat.
 
 var div = document.getElementsByClassName('collection')[0];
 

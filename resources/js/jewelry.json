@@ -66,18 +66,6 @@
                     "img": [
                         {
                             "collection__picture": "resources/images/collection/feathers/kepatmeretezes_hu_18.jpg"
-                        },
-                        {
-                            "first": "resources/images/Virag/tollak/Blue_feather/kepatmeretezes_hu_18.jpg"
-                        },
-                        {
-                            "second": "resources/images/Virag/tollak/Blue_feather/kepatmeretezes_hu_19.jpg"
-                        },
-                        {
-                            "third": "resources/images/Virag/tollak/Blue_feather/kepatmeretezes_hu_22.jpg"
-                        },
-                        {
-                            "fourth": "resources/images/Virag/tollak/Blue_feather/kepatmeretezes_hu_23.jpg"
                         }
                     ]
                 },
@@ -87,18 +75,6 @@
                     "img": [
                         {
                             "collection__picture": "resources/images/collection/feathers/kepatmeretezes_hu_19.jpg"
-                        },
-                        {
-                            "1": "resources/images/Virag/tollak/Blue_feather/kepatmeretezes_hu_18.jpg"
-                        },
-                        {
-                            "2": "resources/images/Virag/tollak/Claret_feather/kepatmeretezes_hu_22.jpg"
-                        },
-                        {
-                            "3": "resources/images/Virag/tollak/Claret_feather/kepatmeretezes_hu_23.jpg"
-                        },
-                        {
-                            "4": "resources/images/Virag/tollak/Claret_feather/kepatmeretezes_hu_24.jpg"
                         }
                     ]
                 },
@@ -141,44 +117,180 @@
             ]
         },
         {
-            "hungarian_motif": [
+            "leaves": [
                 {
-                    "id": 1,
-                    "name": "Arany Motívum",
-                    "price": "&mdash;&nbsp;3250&nbsp;Ft",
+                    "name": "A tölgyfa szépsége",
+                    "price": "&mdash;&nbsp;2875&nbsp;Ft",
                     "img": [
                         {
-                            "1": "resources/images/Virag/magyarviragok/Golden_Hungarian_Motif/kepatmeretezes_hu_3.jpg"
-                        },
+                            "collection__picture": "resources/images/collection/leaves/kepatmeretezes_hu_PicsArt_091402.33.17.jpg"
+                        }
+                    ]
+
+              },
+                {
+                    "name": "Levél Gyöngye",
+                    "price": "&mdash;&nbsp;3175&nbsp;Ft",
+                    "img": [
                         {
-                            "2": "resources/images/Virag/magyarviragok/Golden_Hungarian_Motif/kepatmeretezes_hu_4.jpg"
-                        },
+                            "collection__picture": "resources/images/collection/leaves/kepatmeretezes_hu_PicsArt_091402.39.05.jpg"
+                    }
+                        ]
+              },
+                {
+                    "name": "Az ősz csodája",
+                    "price": "&mdash;&nbsp;2325&nbsp;Ft",
+                    "img": [
                         {
-                            "1": "resources/images/Virag/magyarviragok/Golden_Hungarian_Motif/kepatmeretezes_hu_5.jpg"
-                        },
+                            "collection__picture": "resources/images/collection/leaves/kepatmeretezes_hu_PicsArt_091402.47.45.jpg"
+                        }
+                           ]
+              },
+                {
+                    "name": "A levél gyöngyei",
+                    "price": "&mdash;&nbsp;2195&nbsp;Ft",
+                    "img": [
                         {
-                            "1": "resources/images/Virag/magyarviragok/Golden_Hungarian_Motif/kepatmeretezes_hu_6.jpg"
+                            "collection__picture": "resources/images/collection/leaves/kepatmeretezes_hu_PicsArt_091403.00.15.jpg"
+                    }
+                    ]
+
+              },
+                {
+                    "name": "Sokszínű bolcsesség",
+                    "price": "&mdash;&nbsp;2568&nbsp;Ft",
+                    "img": [
+                        {
+                            "collection__picture": "resources/images/collection/leaves/kepatmeretezes_hu_PicsArt_091403.44.44.jpg"
+                    }
+                    ]
+
+              },
+                {
+                    "name": "Télre váró vidámság",
+                    "price": "&mdash;&nbsp;3175&nbsp;Ft",
+                    "img": [
+                        {
+                            "collection__picture": "resources/images/collection/leaves/kepatmeretezes_hu_PicsArt_091403.39.05.jpg"
+                    }
+                    ]
+
+              }
+          ]
+        },
+        {
+            "hungarian_motif": [
+                {
+                    "name": "Álmos Világa",
+                    "price": "&mdash;&nbsp;1920&nbsp;Ft",
+                    "img": [
+                        {
+                            "collection__picture": "resources/images/collection/hungarian/kepatmeretezes_hu_4.jpg"
                         }
                     ]
                 },
                 {
-                    "id": 2,
-                    "name": "Sárga Motívum",
-                    "price": "&mdash;&nbsp;3150&nbsp;Ft",
+                    "name": "Emese Vágya",
+                    "price": "&mdash;&nbsp;2020&nbsp;Ft",
                     "img": [
                         {
-                            "1": "resources/images/Virag/magyarviragok/Yellow_Hungarian_Motif/kepatmeretezes_hu_6.jpg"
-                        },
-                        {
-                            "2": "resources/images/Virag/magyarviragok/Yellow_Hungarian_Motif/kepatmeretezes_hu_8.jpg"
-                        },
-                        {
-                            "1": "resources/images/Virag/magyarviragok/Yellow_Hungarian_Motif/kepatmeretezes_hu_11.jpg"
-                        },
-                        {
-                            "1": "resources/images/Virag/magyarviragok/Yellow_Hungarian_Motif/kepatmeretezes_hu_12.jpg"
+                            "collection__picture": "resources/images/collection/hungarian/kepatmeretezes_hu_6.jpg"
                         }
                     ]
+                },
+                {
+                    "name": "Sarolt Színe",
+                    "price": "&mdash;&nbsp;2100&nbsp;Ft",
+                    "img": [
+                        {
+                            "collection__picture": "resources/images/collection/hungarian/kepatmeretezes_hu_7.jpg"
+                        }
+                    ]
+                },
+                {
+                    "name": "Hunor Talizmánja",
+                    "price": "&mdash;&nbsp;2630&nbsp;Ft",
+                    "img": [
+                        {
+                            "collection__picture": "resources/images/collection/hungarian/kepatmeretezes_hu_8.jpg"
+                        }
+                    ]
+                },
+                {
+                    "name": "Magor Csodája",
+                    "price": "&mdash;&nbsp;2410&nbsp;Ft",
+                    "img": [
+                        {
+                            "collection__picture": "resources/images/collection/hungarian/kepatmeretezes_hu_10.jpg"
+                        }
+                    ]
+                },
+                {
+                    "name": "Gizella Gyöngye",
+                    "price": "&mdash;&nbsp;3250&nbsp;Ft",
+                    "img": [
+                        {
+                            "collection__picture": "resources/images/collection/hungarian/kepatmeretezes_hu_6.jpg"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "unique_jewelry": [
+                {
+                   "name": "Vizek Védelmezője",
+                    "price": "&mdash;&nbsp;3186&nbsp;Ft",
+                    "img": [
+                        {
+                            "collection__picture": "resources/images/collection/unique/kepatmeretezes_hu_IMG_20180607_201007.jpg"
+                        }
+                    ] 
+                },
+                {
+                   "name": "Az Őrző",
+                    "price": "&mdash;&nbsp;2912&nbsp;Ft",
+                    "img": [
+                        {
+                            "collection__picture": "resources/images/collection/unique/kepatmeretezes_hu_IMG_20180902_221836.jpg"
+                        }
+                    ] 
+                },
+                {
+                   "name": "A Bölcs",
+                    "price": "&mdash;&nbsp;3970&nbsp;Ft",
+                    "img": [
+                        {
+                            "collection__picture": "resources/images/collection/unique/kepatmeretezes_hu_IMG_20180902_221840.jpg"
+                        }
+                    ] 
+                },
+                {
+                   "name": "A Csoda",
+                    "price": "&mdash;&nbsp;3100&nbsp;Ft",
+                    "img": [
+                        {
+                            "collection__picture": "resources/images/collection/unique/kepatmeretezes_hu_IMG_20180902_221843.jpg"
+                        }
+                    ] 
+                },
+                {
+                   "name": "Tűrkíz élet",
+                    "price": "&mdash;&nbsp;3560&nbsp;Ft",
+                    "img": [
+                        {
+                            "collection__picture": "resources/images/collection/unique/kepatmeretezes_hu_IMG_20180902_221846.jpg"
+                        }
+                    ] 
+                },
+                {
+                   "name": "A Remény",
+                    "price": "&mdash;&nbsp;3452&nbsp;Ft",
+                    "img": [
+                        {
+                            "collection__picture": "resources/images/collection/unique/kepatmeretezes_hu_IMG_20190205_120246.jpg"
+                        }
+                    ] 
                 }
             ]
         }
