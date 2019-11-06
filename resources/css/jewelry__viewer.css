@@ -88,28 +88,32 @@ body {
 /*********** JEWELRY PRESENTATION ***********/
 /*------------------------------------------*/
 
-.angyal-box img {
-    width: 64%;
+.image__box img {
+    width: 65%;
     height: auto;
-    margin-left: 0px;
-    float: left;
-    margin-right: 30px;
-    transition: 0.5s;
+    margin-right: 0px;
 }
 
 .egymas-alatt {
-    padding-left: 25%;
+    display: block;
+    padding-left: 0%;
 }
 
 .egymas-alatt img {
-    width: 27.7%;
+    width: 96%;
     height: auto;
-    float: left;
-    margin-bottom: 5px;
     opacity: 1;
     transition: opacity 0.5s;
+    margin-bottom: 10px;
 }
 
+.main__picture {
+}
+
+.extension__picture {
+    margin-top: -86.5%;
+    padding-left: 67%;
+}
 
 /*--------------------------------------------*/
 /*********** POPUP PICTURE SETTINGS ***********/
@@ -273,7 +277,7 @@ img.hover-shadow {
 /************ JEWERLY CONTENT **************/
 /*-----------------------------------------*/
 .jewerly__content {
-    margin-top: 10%;
+    margin-top: 0%;
 } 
 
 .ekszer-nev {
@@ -370,14 +374,20 @@ footer {
     transition: font-size 0.3s;
 }
 
-.company__name:hover {
-    font-size: 102%;
-    font-weight: 600;
-    transition: font-size 0.5s;
-}
-
 .company-title {
     text-decoration: none;
     color: black;
     border-bottom: 1px solid #cfcfcf;
+}
+
+/*--------------------------------------*/
+/********** HIDE EMPTY PICTURE **********/
+/*--------------------------------------*/
+
+#picture__one[src=""] {
+    display: none;
+}
+
+#spicture__two[src=""] {
+    display: none;
 }

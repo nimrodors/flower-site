@@ -1,58 +1,80 @@
 {
     "collection": [
         {
+            "description": {
+                "two": "Az ékszerek felülete festve, valamint lakkozva van, így nagyobb a kopásállósága, viszont ha nem vigyázol rá a különböző külső hatásoktól megkophat a színe és a fénye. Néhány jó tanács, hogyan viseld, illetve tartsd tisztán gyurmaékszered, hogy megőrizze eredeti formáját!",
+                "three": "Fizikai jellegű munkavégzéskor ne viseld!\nSportolás, túrázás során ne használd! (az izzadság nem tesz jót neki.\nÚszás, fürdés, zuhanyozás, kézmosás alkalmával vedd le!\nGyógyvizes, termálvizes uszodában vagy strandon ne viseld!\nHasználat után helyezd egy dobozba, tasakba, hogy nem piszkolódjon!\nHa piszkos lett, hideg vízzel lemosható, DE SOHA NE DÖRZSÖLD, mert sérülhet a lakkozás."
+            },
             "ancient__treasure": [
                 {
-                    "name": "Platón ékköve",
-                    "price": "1950&nbsp;Ft",
+                    "name": "Ocean's eye Medál",
+                    "price": "5500&nbsp;Ft",
+                    "description_1": "Az ősi kincsek nyomában kollekcióm egyik darabja, az óceán szeme, mely az óceánok egy cseppjét rejti magában. Süthető gyurmából készült, közepén egy csepp kék gyantával. Mérete kb. 5 cm.",
                     "img": [
                         {
-                            "collection__picture": "resources/images/collection/ancient/kepatmeretezes_hu_IMG_20190217_161546.jpg"
+                            "collection__picture": "resources/images/collection/ancient/ocean_eye_1.jpg",
+                            "second": "resources/images/collection/ancient/ocean_eye_2.jpg",
+                            "third": "resources/images/collection/ancient/ocean_eye_3.jpg"
                         }
                     ]
                 },
                 {
-                    "name": "Spárta Karma",
-                    "price": "2850&nbsp;Ft",
+                    "name": "Koral Medál",
+                    "price": "7500&nbsp;Ft",
+                    "description_1": "Az ősi kincsek nyomában kollekcióm egyik darabja, a korall, mely az óceánok egy cseppjét rejti magában. Süthető gyurmából készült, közepén egy csepp kék gyantával. Mérete kb. 7 cm.",
                     "img": [
                         {
-                            "collection__picture": "resources/images/collection/ancient/kepatmeretezes_hu_IMG_20190217_161607.jpg"
+                            "collection__picture": "resources/images/collection/ancient/koral_1.jpg",
+                            "second": "resources/images/collection/ancient/koral_1.jpg",
+                            "third": "resources/images/collection/ancient/koral_1.jpg"
                         }
                     ]
                 },
                 {
-                    "name": "Kárthágó Aranya",
-                    "price": "3050&nbsp;Ft",
+                    "name": "Gótikus Levél Medál",
+                    "price": "7500&nbsp;Ft",
+                    "description_1": "Süthető gyurmából aprólékos technikával készült levél medál, melyet a rózsa ablakok ihlettek, a színes minták gyantából készültek. Mérete kb. 6-7 cm.",
                     "img": [
                         {
-                            "collection__picture": "resources/images/collection/ancient/kepatmeretezes_hu_IMG_20190217_161625.jpg"
+                            "collection__picture": "resources/images/collection/ancient/gotikus_level_1.jpg",
+                            "second": "resources/images/collection/ancient/gotikus_level_2.jpg",
+                            "third": "resources/images/collection/ancient/gotikus_level_1.jpg"
                         }
                     ]
                 },
                 {
-                    "name": "Platón Ékköve",
-                    "price": "1950&nbsp;Ft",
+                    "name": "Sunlight Medal",
+                    "price": "7500&nbsp;Ft",
+                    "description_1": "Az ősi kincsek nyomában kollekcióm egyik darabja, a Sunlight, a medál a sugárzó nap egy piciny fénycsóváját foglalja magában. Süthető gyurmából készült, metál pasztával festett, közepén egy csepp sárga gyantával. Mérete kb. 5-6 cm.",
                     "img": [
                         {
-                            "collection__picture": "resources/images/collection/ancient/kepatmeretezes_hu_IMG_20190217_163919.jpg"
+                            "collection__picture": "resources/images/collection/ancient/sunlight_medal_1.jpg",
+                            "second": "resources/images/collection/ancient/sunlight_medal_2.jpg",
+                            "third": "resources/images/collection/ancient/sunlight_medal_3.jpg"
                         }
                     ]
                 },
                 {
-                    "name": "Delphi Tudása",
-                    "price": "2300&nbsp;Ft",
+                    "name": "Sunset Medál",
+                    "price": "7500&nbsp;Ft",
+                    "description_1": "Az ősi kincsek nyomában kollekcióm egyik darabja, a Sunset, a medál a lemenő nap egy piciny sugarát foglalja magában. Süthető gyurmából készült, metál pasztával festett, közepén egy csepp sárga gyantával. Mérete kb. 6-7 cm.",
                     "img": [
                         {
-                            "collection__picture": "resources/images/collection/ancient/kepatmeretezes_hu_IMG_20190217_164034.jpg"
+                            "collection__picture": "resources/images/collection/ancient/sunset_medal_1.jpg",
+                            "second": "resources/images/collection/ancient/sunset_medal_2.jpg",
+                            "third": "resources/images/collection/ancient/sunset_medal_3.jpg"
                         }
                     ]
                 },
                 {
-                    "name": "Leonidász Köve",
-                    "price": "1950&nbsp;Ft",
+                    "name": "Sunset 2 medál",
+                    "price": "7500&nbsp;Ft",
+                    "description_1": "Az ősi kincsek nyomában kollekcióm egyik darabja, a Sunset, a medál a lemenő nap egy piciny sugarát foglalja magában. Süthető gyurmából készült, metál pasztával festett, közepén három csepp gyantával. Mérete kb. 6-7 cm.",
                     "img": [
                         {
-                            "collection__picture": "resources/images/collection/ancient/kepatmeretezes_hu_IMG_20190217_164057.jpg"
+                            "collection__picture": "resources/images/collection/ancient/sunset_2_1.jpg",
+                            "second": "resources/images/collection/ancient/sunset_2_2.jpg",
+                            "third": "resources/images/collection/ancient/sunset_2_1.jpg"
                         }
                     ]
                 }
@@ -61,56 +83,74 @@
         {
             "feathers": [
                 {
-                    "name": "Kék Levél",
-                    "price": "2500&nbsp;Ft",
+                    "name": "Kék Toll Medál Smaragddal",
+                    "price": "5000&nbsp;Ft",
+                    "description_1": "Toll medál több színben, pici smaragddal. Süthető gyurmából készült aprólékos technikával. Mérete kb. 6 cm. Mutatós darab, hozzáillő fülbevalót is lehet kérni.",
                     "img": [
                         {
-                            "collection__picture": "resources/images/collection/feathers/kepatmeretezes_hu_18.jpg"
+                            "collection__picture": "resources/images/collection/feathers/kek_toll_medal_smaragddal_4.jpg",
+                            "second": "resources/images/collection/feathers/kek_toll_medal_smaragddal_1.jpg",
+                            "third": "resources/images/collection/feathers/kek_toll_medal_smaragddal_2.jpg"
                         }
                     ]
                 },
                 {
-                    "name": "Bordó Levél",
-                    "price": "&mdash;&nbsp;2500&nbsp;Ft",
+                    "name": "Kék Toll Medál",
+                    "price": "&mdash;&nbsp;4000&nbsp;Ft",
+                    "description_1": "Toll medál kék színben, süthető gyurmából készült aprólékos technikával, apró színes gyanta pöttyökkel. Mérete kb. 5-6 cm. Mutatós ékszer, hozzáillő fülbevalót is lehet kérni.",
                     "img": [
                         {
-                            "collection__picture": "resources/images/collection/feathers/kepatmeretezes_hu_19.jpg"
+                            "collection__picture": "resources/images/collection/feathers/kek_toll_medal_1_uj.jpg",
+                            "second": "resources/images/collection/feathers/kek_toll_medal_2_uj.jpg",
+                            "third": "resources/images/collection/feathers/kek_toll_medal_3_uj.jpg"
                         }
                     ]
                 },
                 {
-                    "name": "Hármas Levél",
-                    "price": "&mdash;&nbsp;2590&nbsp;Ft",
+                    "name": "Toll Szett",
+                    "price": "&mdash;&nbsp;7000&nbsp;Ft",
+                    "description_1": "Toll szett metál színekkel, süthető gyurmából készült aprólékos technikával. Mérete kb. 5-6 cm. Mutatós darab, hozzáillő fülbevalót is lehet kérni. Másféle színben kérhető.",
                     "img": [
                         {
-                            "collection__picture": "resources/images/collection/feathers/kepatmeretezes_hu_22.jpg"
+                            "collection__picture": "resources/images/collection/feathers/toll_szett_fulbevalo_3_uj.jpg",
+                            "second": "resources/images/collection/feathers/toll_szett_fulbevalo_1.jpg",
+                            "third": "resources/images/collection/feathers/toll_szett_fulbevalo_2_uj.jpg"
                     }
                     ]
                 },
                 {
-                    "name": "Aranyozott Dupla",
+                    "name": "Toll Fülbevaló",
                     "price": "&mdash;&nbsp;4500&nbsp;Ft",
+                    "description_1": "Toll fülbevaló metál színekkel, süthető gyurmából készült aprólékos technikával. Mérete kb. 5-6 cm. Mutatós darab, hozzáillő medált is lehet kérni.",
                     "img": [
                         {
-                            "collection__picture": "resources/images/collection/feathers/kepatmeretezes_hu_25.jpg"
+                            "collection__picture": "resources/images/collection/feathers/toll_fulbevalo_1.jpg",
+                             "second": "resources/images/collection/feathers/toll_fulbevalo_2.jpg",
+                            "third": "resources/images/collection/feathers/toll_fulbevalo_3.jpg"
                         }
                     ]
                 },
                 {
-                    "name": "Hosszú Kék",
-                    "price": "&mdash;&nbsp;3270&nbsp;Ft",
+                    "name": "Toll Medál",
+                    "price": "&mdash;&nbsp;7000&nbsp;Ft",
+                    "description_1": "Toll medál metál színekkel, süthető gyurmából készült aprólékos technikával, apró színes gyanta pöttyökkel. Mérete kb. 5-6 cm. Mutatós ékszer, hozzáillő fülbevalót is lehet kérni.",
                     "img": [
                         {
-                            "collection__picture": "resources/images/collection/feathers/kepatmeretezes_hu_24.jpg"
+                            "collection__picture": "resources/images/collection/feathers/toll_nyaklanc_1.jpg",
+                            "second": "resources/images/collection/feathers/toll_nyaklanc_2.jpg",
+                            "third": "resources/images/collection/feathers/toll_nyaklanc_3.jpg"
                         }
                     ]
                 },
                 {
-                    "name": "Dupla Kék",
-                    "price": "&mdash;&nbsp;2270&nbsp;Ft",
+                    "name": "Blackandwhite Toll Karkötő",
+                    "price": "&mdash;&nbsp;4500&nbsp;Ft",
+                    "description_1": "Toll karkötő fekete fehér színekkel, süthető gyurmából készült aprólékos technikával. Mérete kb. 4-5 cm, a karkötő hossza állítható.",
                     "img": [
                         {
-                            "collection__picture": "resources/images/collection/feathers/kepatmeretezes_hu_kepatmeretezes_hu_IMG_20181115_121002.jpg"
+                            "collection__picture": "resources/images/collection/feathers/toll_karkoto_1.jpg",
+                            "second": "resources/images/collection/feathers/toll_karkoto_2.jpg",
+                            "third": "resources/images/collection/feathers/toll_karkoto_3_uj.jpg"
                         }
                     ]
                 }
@@ -119,59 +159,77 @@
         {
             "leaves": [
                 {
-                    "name": "A tölgyfa szépsége",
-                    "price": "&mdash;&nbsp;2875&nbsp;Ft",
+                    "name": "Levél Csodák",
+                    "price": "&mdash;&nbsp;4000&nbsp;Ft",
+                    "description_1": "",
                     "img": [
                         {
-                            "collection__picture": "resources/images/collection/leaves/kepatmeretezes_hu_PicsArt_091402.33.17.jpg"
+                            "collection__picture": "resources/images/collection/leaves/level_csodak_1.jpg",
+                            "second": "resources/images/collection/leaves/level_csodak_2.jpg",
+                            "third": "resources/images/collection/leaves/level_csodak_3.jpg"
                         }
                     ]
 
               },
                 {
-                    "name": "Levél Gyöngye",
-                    "price": "&mdash;&nbsp;3175&nbsp;Ft",
+                    "name": "Levél Gyöngyei",
+                    "price": "&mdash;&nbsp;4000&nbsp;Ft",
+                    "description_1": "Levél medál metál színnekkel, süthető gyurmából készült aprólékos technikával. Mérete kb. 5-6 cm. Mutatós darab, hozzáillő fülbevalót is lehet kérni.",
                     "img": [
                         {
-                            "collection__picture": "resources/images/collection/leaves/kepatmeretezes_hu_PicsArt_091402.39.05.jpg"
+                            "collection__picture": "resources/images/collection/leaves/level_gyongyei_1_uj.jpg",
+                            "second": "resources/images/collection/leaves/level_gyongyei_2_uj.jpg",
+                            "third": "resources/images/collection/leaves/level_gyongyei_1.jpg"
                     }
                         ]
               },
                 {
-                    "name": "Az ősz csodája",
-                    "price": "&mdash;&nbsp;2325&nbsp;Ft",
+                    "name": "Juhar Gyönggyel",
+                    "price": "&mdash;&nbsp;4000&nbsp;Ft",
+                    "description_1": "Juhar levél az ősz színeivel, süthető gyurmából készült aprólékos technikával. Mérete kb. 5-6 cm. Mutatós darab, hozzáillő fülbevalót is lehet kérni.",
                     "img": [
                         {
-                            "collection__picture": "resources/images/collection/leaves/kepatmeretezes_hu_PicsArt_091402.47.45.jpg"
+                            "collection__picture": "resources/images/collection/leaves/juhar_1.jpg",
+                            "second": "resources/images/collection/leaves/juhar_2.jpg",
+                            "third": "resources/images/collection/leaves/juhar_1.jpg"
                         }
                            ]
               },
                 {
-                    "name": "A levél gyöngyei",
-                    "price": "&mdash;&nbsp;2195&nbsp;Ft",
+                    "name": "Levél Nyaklánc",
+                    "price": "&mdash;&nbsp;4000&nbsp;Ft",
+                    "description_1": "Levél medál ovális gyöngyel a közepén, süthető gyurmából készült aprólékos technikával. Mérete kb. 5-6 cm. Mutatós darab, hozzáillő fülbevalót is lehet kérni.",
                     "img": [
                         {
-                            "collection__picture": "resources/images/collection/leaves/kepatmeretezes_hu_PicsArt_091403.00.15.jpg"
+                            "collection__picture": "resources/images/collection/leaves/level_gyongy_1.jpg",
+                            "second": "resources/images/collection/leaves/level_gyongy_2.jpg",
+                            "third": "resources/images/collection/leaves/level_gyongy_1.jpg"
                     }
                     ]
 
               },
                 {
-                    "name": "Sokszínű bolcsesség",
-                    "price": "&mdash;&nbsp;2568&nbsp;Ft",
+                    "name": "Ginko Biloba Lelél Medál",
+                    "price": "&mdash;&nbsp;4000&nbsp;Ft",
+                    "description_1": "Ginkgo biloba levél medál metál színnekkel, süthető gyurmából készült aprólékos technikával. Mérete kb. 5-6 cm.",
                     "img": [
                         {
-                            "collection__picture": "resources/images/collection/leaves/kepatmeretezes_hu_PicsArt_091403.44.44.jpg"
+                            "collection__picture": "resources/images/collection/leaves/ginko_1.jpg",
+                            "second": "resources/images/collection/leaves/ginko_2.jpg",
+                            "third": "resources/images/collection/leaves/ginko_1.jpg"
                     }
                     ]
 
               },
                 {
-                    "name": "Télre váró vidámság",
-                    "price": "&mdash;&nbsp;3175&nbsp;Ft",
+                    "name": "Juhar Kicsi Gyönggyel",
+                    "price": "&mdash;&nbsp;4000&nbsp;Ft",
+                    "description_1": "Levél mindent látó gyöngyel az ősz színeivel, süthető gyurmából készült aprólékos technikával. Mérete kb. 5-6 cm. Mutatós darab, hozzáillő fülbevalót is lehet kérni.",
                     "img": [
                         {
-                            "collection__picture": "resources/images/collection/leaves/kepatmeretezes_hu_PicsArt_091403.39.05.jpg"
+                            "collection__picture": "resources/images/collection/leaves/juhar_kicsi_gyongy_1.jpg",
+                            "second": "resources/images/collection/leaves/juhar_kicsi_gyongy_2.jpg",
+                            "third": "resources/images/collection/leaves/juhar_kicsi_gyongy_1.jpg"
                     }
                     ]
 
@@ -182,55 +240,73 @@
             "hungarian_motif": [
                 {
                     "name": "Álmos Világa",
-                    "price": "&mdash;&nbsp;1920&nbsp;Ft",
+                    "price": "&mdash;&nbsp;4000&nbsp;Ft",
+                    "description_1": "Magyar ezüst motívum, süthető gyurmából készült aprólékos technikával. Mérete kb. 4-6 cm.",
                     "img": [
                         {
-                            "collection__picture": "resources/images/collection/hungarian/kepatmeretezes_hu_4.jpg"
+                            "collection__picture": "resources/images/collection/hungarian/hun_ezust_fekete_1_uj.jpg",
+                            "second": "resources/images/collection/hungarian/hun_ezust_fekete_2_uj.jpg",
+                            "third": "resources/images/collection/hungarian/hun_ezust_fekete_3_uj.jpg"
                         }
                     ]
                 },
                 {
                     "name": "Emese Vágya",
-                    "price": "&mdash;&nbsp;2020&nbsp;Ft",
+                    "price": "&mdash;&nbsp;4000&nbsp;Ft",
+                    "description_1": "Magyar sárga motívum, süthető gyurmából készült aprólékos technikával. Mérete kb. 4-6 cm.",
                     "img": [
                         {
-                            "collection__picture": "resources/images/collection/hungarian/kepatmeretezes_hu_6.jpg"
+                            "collection__picture": "resources/images/collection/hungarian/hun_kicsi_sarga_1_uj.jpg",
+                            "second": "resources/images/collection/hungarian/hun_kicsi_sarga_2_uj.jpg",
+                            "third": "resources/images/collection/hungarian/hun_kicsi_sarga_3_uj.jpg"
                         }
                     ]
                 },
                 {
                     "name": "Sarolt Színe",
-                    "price": "&mdash;&nbsp;2100&nbsp;Ft",
+                    "price": "&mdash;&nbsp;4000&nbsp;Ft",
+                    "description_1": "Magyar türkiz motívum, süthető gyurmából készült aprólékos technikával. Mérete kb. 4-6 cm.",
                     "img": [
                         {
-                            "collection__picture": "resources/images/collection/hungarian/kepatmeretezes_hu_7.jpg"
+                            "collection__picture": "resources/images/collection/hungarian/hun_kicsi_turkiz_1_uj.jpg",
+                            "second": "resources/images/collection/hungarian/hun_kicsi_turkiz_2_uj.jpg",
+                            "third": "resources/images/collection/hungarian/hun_kicsi_turkiz_1_uj.jpg"
                         }
                     ]
                 },
                 {
                     "name": "Hunor Talizmánja",
-                    "price": "&mdash;&nbsp;2630&nbsp;Ft",
+                    "price": "&mdash;&nbsp;4000&nbsp;Ft",
+                    "description_1": "Magyar sárga fekete motívum kővel a közepén, süthető gyurmából készült aprólékos technikával. Mérete kb. 4-6 cm.",
                     "img": [
                         {
-                            "collection__picture": "resources/images/collection/hungarian/kepatmeretezes_hu_8.jpg"
+                            "collection__picture": "resources/images/collection/hungarian/hun_sarga_fekete_1_uj.jpg",
+                            "second": "resources/images/collection/hungarian/hun_sarga_fekete_2_uj.jpg",
+                            "third": "resources/images/collection/hungarian/hun_sarga_fekete_3_uj.jpg"
                         }
                     ]
                 },
                 {
                     "name": "Magor Csodája",
-                    "price": "&mdash;&nbsp;2410&nbsp;Ft",
+                    "price": "&mdash;&nbsp;4000&nbsp;Ft",
+                    "description_1": "Magyar piros fekete motívum kővel a közepén, süthető gyurmából készült aprólékos technikával. Mérete kb. 4-6 cm.",
                     "img": [
                         {
-                            "collection__picture": "resources/images/collection/hungarian/kepatmeretezes_hu_10.jpg"
+                            "collection__picture": "resources/images/collection/hungarian/hun_kicsi_fekete_piros_1_uj.jpg",
+                            "second": "resources/images/collection/hungarian/hun_kicsi_fekete_piros_3_uj.jpg",
+                            "third": "resources/images/collection/hungarian/hun_kicsi_fekete_piros_1_uj.jpg"
                         }
                     ]
                 },
                 {
                     "name": "Gizella Gyöngye",
-                    "price": "&mdash;&nbsp;3250&nbsp;Ft",
+                    "price": "&mdash;&nbsp;4000&nbsp;Ft",
+                    "description_1": "Magyar piros türkiz motívum, süthető gyurmából készült aprólékos technikával. Mérete kb. 4-6 cm.",
                     "img": [
                         {
-                            "collection__picture": "resources/images/collection/hungarian/kepatmeretezes_hu_6.jpg"
+                            "collection__picture": "resources/images/collection/hungarian/hun_piros_kek_1_uj.jpg",
+                            "second": "resources/images/collection/hungarian/hun_piros_kek_1_uj.jpg",
+                            "third": "resources/images/collection/hungarian/hun_piros_kek_1_uj.jpg"
                         }
                     ]
                 }
@@ -239,58 +315,76 @@
         {
             "unique_jewelry": [
                 {
-                   "name": "Vizek Védelmezője",
+                    "name": "Kék Fehér Sárkány",
                     "price": "&mdash;&nbsp;3186&nbsp;Ft",
+                    "description_1": "Kék-fehér színátmenetes sárkány, mely egy szodalit fánkot ölel át. Gyurmából készült aprólékos munkával, türelemmel. Mérete kb. 7 cm. Mutatós darab, hozzáillő fülbevalót is lehet kérni",
                     "img": [
                         {
-                            "collection__picture": "resources/images/collection/unique/kepatmeretezes_hu_IMG_20180607_201007.jpg"
+                            "collection__picture": "resources/images/collection/unique/kek_sarkany_1.jpg",
+                            "second": "resources/images/collection/unique/kek_sarkany_2.jpg",
+                            "third": "resources/images/collection/unique/kek_sarkany_1.jpg"
                         }
-                    ] 
+                    ]
                 },
                 {
-                   "name": "Az Őrző",
-                    "price": "&mdash;&nbsp;2912&nbsp;Ft",
+                    "name": "Az Őrző",
+                    "price": "&mdash;&nbsp;7500&nbsp;Ft",
+                    "description_1": "Színátmenetes holló medál.Gyurmából készült aprólékos munkával, türelemmel. Mérete kb. 7 cm. Mutatós darab, hozzáillő fülbevalót is lehet kérni",
                     "img": [
                         {
-                            "collection__picture": "resources/images/collection/unique/kepatmeretezes_hu_IMG_20180902_221836.jpg"
+                            "collection__picture": "resources/images/collection/unique/hollo_1.jpg",
+                            "second": "resources/images/collection/unique/hollo_2.jpg",
+                            "third": "resources/images/collection/unique/hollo_3.jpg"
                         }
-                    ] 
+                    ]
                 },
                 {
-                   "name": "A Bölcs",
+                    "name": "A Bölcs",
                     "price": "&mdash;&nbsp;3970&nbsp;Ft",
+                    "description_1": "Kis Gomba csoda az erdőből. Gyurmából készült aprólékos munkával, türelemmel. Mérete kb. 5 - 7 cm. Mutatós darab.",
                     "img": [
                         {
-                            "collection__picture": "resources/images/collection/unique/kepatmeretezes_hu_IMG_20180902_221840.jpg"
+                            "collection__picture": "resources/images/collection/unique/bolcs_1.jpg",
+                            "second": "resources/images/collection/unique/bolcs_2.jpg",
+                            "third": "resources/images/collection/unique/bolcs_3.jpg"
                         }
-                    ] 
+                    ]
                 },
                 {
-                   "name": "A Csoda",
-                    "price": "&mdash;&nbsp;3100&nbsp;Ft",
+                    "name": "Tengeri Teknős Medál",
+                    "price": "&mdash;&nbsp;4500&nbsp;Ft",
+                    "description_1": "Ez a teknős medál hátán egy füstkvarccal, süthető gyurmából készült aprólékos technikával és türelemmel. Mérete kb. 5 cm. Mutatós darab, hozzáillő fülbevalót is lehet kérni.",
                     "img": [
                         {
-                            "collection__picture": "resources/images/collection/unique/kepatmeretezes_hu_IMG_20180902_221843.jpg"
+                            "collection__picture": "resources/images/collection/unique/kis_zold_teknos_1.jpg",
+                            "second": "resources/images/collection/unique/kis_zold_teknos_2.jpg",
+                            "third": "resources/images/collection/unique/kis_zold_teknos_1.jpg"
                         }
-                    ] 
+                    ]
                 },
                 {
-                   "name": "Tűrkíz élet",
-                    "price": "&mdash;&nbsp;3560&nbsp;Ft",
+                    "name": "Kék Tengeri Tekős Medál",
+                    "price": "&mdash;&nbsp;4500&nbsp;Ft",
+                    "description_1": "Ez a teknős medál hátán egy karneollal, süthető gyurmából készült aprólékos technikával és türelemmel. Mérete kb. 5 cm. Mutatós darab, hozzáillő fülbevalót is lehet kérni.",
                     "img": [
                         {
-                            "collection__picture": "resources/images/collection/unique/kepatmeretezes_hu_IMG_20180902_221846.jpg"
+                            "collection__picture": "resources/images/collection/unique/turkiz_teknos_1.jpg",
+                            "second": "resources/images/collection/unique/turkiz_teknos_2.jpg",
+                            "third": "resources/images/collection/unique/turkiz_teknos_1.jpg"
                         }
-                    ] 
+                    ]
                 },
                 {
-                   "name": "A Remény",
-                    "price": "&mdash;&nbsp;3452&nbsp;Ft",
+                    "name": "Csikóhal Medál",
+                    "price": "&mdash;&nbsp;7500&nbsp;Ft",
+                    "description_1": "Csikóhal medál achátkővel, süthető gyurmából készült aprólékos technikával és türelemmel. Mérete kb. 7 cm. Mutatós darab, hozzáillő fülbevalót is lehet kérni.",
                     "img": [
                         {
-                            "collection__picture": "resources/images/collection/unique/kepatmeretezes_hu_IMG_20190205_120246.jpg"
+                            "collection__picture": "resources/images/collection/unique/csikohal_1.jpg",
+                            "second": "resources/images/collection/unique/csikohal_2.jpg",
+                            "third": "resources/images/collection/unique/csikohal_3.jpg"
                         }
-                    ] 
+                    ]
                 }
             ]
         }

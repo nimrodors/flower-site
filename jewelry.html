@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="vendors/css/magnific-popup.css">
     <link href="https://fonts.googleapis.com/css?family=Courgette&display=swap&subset=latin-ext" rel="stylesheet" type="text/css">
 
-    <title>Angyal</title>
+    <title>Ékszerek</title>
 
 </head>
 
@@ -28,23 +28,25 @@
             </div>
         </nav>
     </section>
-    
+
     <section class="onallo-ekszer">
         <div class="btn">
             <a href="kollekcio.html" class="back__btn" id="vissza">Vissza</a>
         </div>
-        <div class="row angyal-box">
-            <div class="col span-1-of-2 col--kivalasztott-ekszer">
-
-                <div>
-                    <img src="resources/ekszer/angyal/kepatmeretezes_hu_IMG_20190205_120256.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow" id="nagykep">
-                </div>
-                <div class="egymas-alatt">
-                    <img src="resources/ekszer/angyal/kepatmeretezes_hu_IMG_20190205_120303.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
-                    <img src="resources/ekszer/angyal/kepatmeretezes_hu_IMG_20190205_122245.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
-                    <img src="resources/ekszer/angyal/kepatmeretezes_hu_IMG_20190205_122312.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+        <div class="row image__box">
+            <div class="col span-1-of-2">
+                <div class="main__picture">
+                    <img id="picture__one" alt="" onclick="openModal();currentSlide(1)" onerror="arguments[0].currentTarget.style.display='none'" class="hover-shadow">
                 </div>
 
+                <div class="extension__picture">
+                    <div class="egymas-alatt">
+                        <img id="picture__two" alt="" onclick="openModal();currentSlide(2)" onerror="arguments[0].currentTarget.style.display='none'" class="hover-shadow">
+                    </div>
+                    <div class="egymas-alatt">
+                        <img id="picture__three" alt="" onclick="openModal();currentSlide(3)" onerror="arguments[0].currentTarget.style.display='none'" class="hover-shadow">
+                    </div>
+                </div>
                 <!-- The Modal -->
                 <!-- The Modal/Lightbox -->
                 <div id="myModal" class="modal">
@@ -52,54 +54,50 @@
                     <div class="modal-content">
 
                         <div class="mySlides">
-                            <div class="numbertext">1 / 4</div>
-                            <img src="resources/ekszer/angyal/kepatmeretezes_hu_IMG_20190205_120256.jpg">
+                            <div class="numbertext">1 / 3</div>
+                            <img id="popup__one">
                         </div>
 
                         <div class="mySlides">
-                            <div class="numbertext">2 / 4</div>
-                            <img src="resources/ekszer/angyal/kepatmeretezes_hu_IMG_20190205_120303.jpg">
+                            <div class="numbertext">2 / 3</div>
+                            <img id="popup__two">
                         </div>
 
                         <div class="mySlides">
-                            <div class="numbertext">3 / 4</div>
-                            <img src="resources/ekszer/angyal/kepatmeretezes_hu_IMG_20190205_122245.jpg">
+                            <div class="numbertext">3 / 3</div>
+                            <img id="popup__three">
                         </div>
-
+                        <!--
                         <div class="mySlides">
                             <div class="numbertext">4 / 4</div>
-                            <img src="resources/ekszer/angyal/kepatmeretezes_hu_IMG_20190205_122312.jpg">
+                            <img id="popup__four">
                         </div>
-
+                        -->
                         <!-- Next/previous controls -->
                         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                         <a class="next" onclick="plusSlides(1)">&#10095;</a>
                     </div>
                 </div>
 
-
             </div>
 
-            <div class="col span-1-of-2 col--kivalasztott-ekszer col--kivalasztott-ekszer--2 jewerly__content">
-                <p class="ekszer-nev">Angyal</p>
-                <p class="ekszer-erteke">18000</p>
+            <div class="col span-1-of-2 jewerly__content">
+                <p class="ekszer-nev" id="jewelry__name"></p>
+                <p class="ekszer-erteke" id="jewelry__price"></p>
                 <hr class="hr-kicsi">
                 <div>
-                    <p class="ekszer-reszletek ekszer-reszletek__1">
-                        Ez egy csodaszép angyal. Készült ilyen és olyan alapanyagból.
-                        Kiválló nyaklánc soha el nem kopik.
+                    <p id="description_one" class="ekszer-reszletek ekszer-reszletek__1">
+                        
                     </p>
                 </div>
                 <div>
-                    <p class="ekszer-reszletek">
-                        Ékszer anyaga mérete: pl gyúrma, vagy acél, vagy vas
-                        13mm széles 54 hosszú
+                    <p id="description_two" class="ekszer-reszletek">
+                        
                     </p>
                 </div>
                 <div>
-                    <p class="ekszer-reszletek">
-                        Itt a cikkszám lesz: ez alapján fogja a kollegína vagy
-                        kollega megrengelni a cuccot: pl: angyal: angyal0023
+                    <p id="description_three" class="ekszer-reszletek">
+                        
                     </p>
                 </div>
             </div>
@@ -123,15 +121,16 @@
             </p>
         </div>
     </footer>
-    
+
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js"></script>
+    <script src="resources/js/jewelry.js"></script>
 
 
     <!-- Magnific Popup core JS file -->
     <script src="vendors/js/jquery.magnific-popup.js"></script>
-    
+
 
     <script>
         /*Get the modal*/
@@ -191,7 +190,7 @@
     <script>
         //előző oldal linkjét itt mentem el
         var previousLink = document.referrer;
-        
+
         //itt tárolom el a kollekciók url-jét a previousLinkben
         try {
             localStorage.setItem('previousLink', previousLink);
@@ -199,19 +198,10 @@
             console.log(error + ' Hiba');
         }
         console.log(previousLink);
-        
+
         //Átadom a 'vissza' id-ú hrefnek a kollekciók URL-t
         var a = document.getElementById('vissza');
         a.href = previousLink;
     </script>
-    <script>
-        var cName, collectionName;
-        
-        cName = localStorage['collectionName'];
-        
-        collectionName = cName;
-        console.log(collectionName);
-    </script>
-
 
 </body></html>

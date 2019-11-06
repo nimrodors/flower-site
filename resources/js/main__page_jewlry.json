@@ -1,0 +1,55 @@
+{
+    "first": {
+        "name": "Toll Medál",
+        "price": "5000&nbsp;Ft",
+        "description_1": "Toll medál metál színekkel, süthető gyurmából készült aprólékos technikával. Mérete kb. 8-9 cm. Mutatós darab, hozzáillő fülbevalót is lehet kérni.",
+        "img": [
+            {
+                "one": "resources/images/Virag/tollak/toll_medal_1.jpg",
+                "two": "",
+                "three": ""
+            }
+        ]
+
+    },
+    "second": {
+        "name": "Sunlight Medal",
+        "price": "7500&nbsp;Ft",
+        "description_1": "Az ősi kincsek nyomában kollekcióm egyik darabja, a Sunlight, a medál a sugárzó nap egy piciny fénycsóváját foglalja magában. Süthető gyurmából készült, metál pasztával festett, közepén egy csepp sárga gyantával. Mérete kb. 5-6 cm.",
+        "img": [
+            {
+                "one": "resources/images/collection/ancient/sunlight_medal_1.jpg",
+                "two": "resources/images/collection/ancient/sunlight_medal_2.jpg",
+                "three": "resources/images/collection/ancient/sunlight_medal_3.jpg"
+            }
+        ]
+    },
+    "third": {
+        "name": "Maori Twist Medál",
+        "price": "6500&nbsp;Ft",
+        "description_1": "Hawaii maori stílusú hármas csavar medál, egy pici türkiz koponyával. Süthető gyurmából készült, egy pici türkiz gyantával. Mérete kb. 7 cm.",
+        "img": [
+            {
+                "one": "",
+                "two": "",
+                "three": ""
+            }
+        ]
+    },
+    "fourth": {
+        "name": "Sunset medál",
+        "price": "7500&nbsp;Ft",
+        "description_1": "Az ősi kincsek nyomában kollekcióm egyik darabja, a Sunset, a medál a lemenő nap egy piciny sugarát foglalja magában. Süthető gyurmából készült, metál pasztával festett, közepén egy csepp sárga gyantával. Mérete kb. 6-7 cm.",
+        "img": [
+            {
+                "one": "resources/images/collection/ancient/sunset_medal_1.jpg",
+                "two": "resources/images/collection/ancient/sunset_medal_2.jpg",
+                "three": "resources/images/collection/ancient/sunset_medal_3.jpg"
+            }
+        ]
+    },
+    "description": {
+        "two": "Az ékszerek felülete festve, valamint lakkozva van, így nagyobb a kopásállósága, viszont ha nem vigyázol rá a különböző külső hatásoktól megkophat a színe és a fénye. Néhány jó tanács, hogyan viseld, illetve tartsd tisztán gyurmaékszered, hogy megőrizze eredeti formáját!",
+        "three": "Fizikai jellegű munkavégzéskor ne viseld!\nSportolás, túrázás során ne használd! (az izzadság nem tesz jót neki.\nÚszás, fürdés, zuhanyozás, kézmosás alkalmával vedd le!\nGyógyvizes, termálvizes uszodában vagy strandon ne viseld!\nHasználat után helyezd egy dobozba, tasakba, hogy nem piszkolódjon!\nHa piszkos lett, hideg vízzel lemosható, DE SOHA NE DÖRZSÖLD, mert sérülhet a lakkozás."
+    }
+}

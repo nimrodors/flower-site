@@ -36,7 +36,7 @@ $('a[href*="#"]').click(function () {
         location.hostname == this.hostname) {
 
         var target = $(this.hash);
-        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+        target = target.length ? target : $('[name="' + this.hash.slice(1) + '"]');
         if (target.length) {
             $('html,body').animate({
                 scrollTop: target.offset().top
@@ -85,21 +85,52 @@ $('.mobile-nav-icon').click(function () {
 });
 
 //Ebben a fügvényben tárolom el a kijelölt kollekciókat.
+function getCollection() {
+    var div = document.getElementsByClassName('collection')[0];
 
-var div = document.getElementsByClassName('collection')[0];
+    div.addEventListener('click', function (event) {
+        var collectionName;
 
-div.addEventListener('click', function (event) {
-    var collectionName;
-    
-    //Itt tárolom el a kollekció nevét és adom át a collection.js-nek. Ami megjeleníti a megfelelő kollekciót
-    collectionName = event.target.id;
+        //Itt tárolom el a kollekció nevét és adom át a collection.js-nek. Ami megjeleníti a megfelelő kollekciót
+        collectionName = event.target.id;
 
-    try {
-        localStorage.setItem('collectionName', collectionName);
-        console.log('Maki Siker');
-    } catch (error) {
-        console.log(error + ' Hiba');
-    }
+        try {
+            sessionStorage.setItem('collectionName', collectionName);
+            console.log('Maki Siker');
+        } catch (error) {
+            console.log(error + ' Hiba');
+        }
 
 
-});
+    });
+}
+
+function getPicture() {
+    var section = document.getElementsByClassName('pictures')[0];
+
+    section.addEventListener('click', function (event) {
+        var pictureName;
+
+        pictureName = event.target.parentNode.parentNode.parentNode.id;
+
+        try {
+            sessionStorage.setItem('pictureName', pictureName);
+            
+            
+        } catch (error) {
+            console.log(error + ' Hiba');
+        }
+
+    });
+}
+
+//Ez a fügvény kitöréli a navCollectionban lévő elemet amikor visszanavigálunk az index.html oldalra
+function getURL () {
+    var navCollection = sessionStorage.removeItem('navCollectionName');
+    var pictureName = sessionStorage.removeItem('pictureName');
+}
+ 
+
+getCollection();
+getPicture();
+getURL();

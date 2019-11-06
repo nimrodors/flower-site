@@ -436,12 +436,13 @@ footer {
     transition: font-size 0.3s;
 }
 
+/*
 .company__name:hover {
     font-size: 102%;
     font-weight: 600;
     transition: font-size 0.5s;
 }
-
+*/
 .company-title {
     text-decoration: none;
     color: black;
